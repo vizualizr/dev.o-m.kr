@@ -14,9 +14,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build graph's SPA
-        uses: .
+        uses: logseq/publish-spa@main
         with:
-          graph-directory: test/publish-test-graph
+          graph-directory: .
           theme-mode: dark
           accent-color: cyan
 
