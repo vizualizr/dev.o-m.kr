@@ -18,6 +18,8 @@ type::
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ### log
-	- [[2025-07-23]]
+	- DONE  [[2025-07-23]] complete to pull and push the repository to github
+		- the repo is [vizualizr/dev.o-m.kr](https://github.com/vizualizr/dev.o-m.kr)
+	- TODO Add [spa workflow](https://github.com/logseq/publish-spa) to the repository above.
 - #### References
 	-
