@@ -5,7 +5,7 @@ tags:: tailwindcss, vite, d3.js
 type::
 public:: true
 
-- ## Introduction
+- ## Summary
 	- Build a Windows-based prototype environment for [[tailwindcss]] v4 with [[vite]] and [[d3.js]]
 	- Establish a lightweight configuration with clear structure for iterative UI testing.
 - ## Procedure
