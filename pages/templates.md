@@ -11,7 +11,11 @@ public:: false
 	  public:: true
 	- ## Summary
 		-
-	- ### log
+	- ## Steps
+		-
+	- ## Troubleshooting
+		-
+	- ## log
 		- <% today %>
 	- ### References
 		-

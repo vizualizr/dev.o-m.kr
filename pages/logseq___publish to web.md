@@ -1,6 +1,6 @@
 public:: true
 date-created:: [[2025-07-23]]
-date-modified::
+date-modified:: [[2025-07-25]]
 division::
 stack::
 tags:: logseq
@@ -75,8 +75,20 @@ public:: true
 	  logseq.order-list-type:: number
 		- If you encounter any issue with `git push`, use `git push --remote origin main`.
 		  logseq.order-list-type:: number
-	- Now publish `gh-pages` branch on your repository setting following [the GitHub instruction](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+	- Now publish `gh-pages` branch on your repository setting following [the GitHub instruction](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 	  logseq.order-list-type:: number
+	- **how to update**
+	  logseq.order-list-type:: number
+		- Apply your update on the `main` branch on local repo
+			- ```bash
+			  git commit -a
+			  # then add your commint message
+			  ```
+		- Push your latest commit to GitHub
+			- ```bash
+			  git push origin main
+			  #this pushes changes from origin to main branch on the remote
+			  ```
 - ## Troubleshooting
 	- 404 error after running the workflow.
 		- > Is resolverd! You can re-publish your GitHub Pages website by navigating to the Actions tab of your repository, click on the Pages build and deployment workflow, then click the Re-run all jobs button located in the upper right corner of the page. After the workflow run has completed, your site will be published.
