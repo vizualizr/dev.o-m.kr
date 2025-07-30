@@ -1,0 +1,31 @@
+.block-content-inner,
+.editor-wrapper {
+  word-break: keep-all !important;
+  font-family: "IBM Plex Sans KR";
+  line-height: 1.9rem;
+}
+
+.CodeMirror {
+  font-family:"D2Coding" !important;
+  /* font-family: "Monoplex KR" !important; */
+}
+
+.will-stick > .flex-row {
+  background: none;
+  background-image: none;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-color: none;
+  backdrop-filter: blur(50px);
+}
+
+.query-table > .whitespace-nowrap {
+  background-color: rgba(var(--ls-primary-background-color), 0.1);
+}
