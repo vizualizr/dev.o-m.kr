@@ -1,5 +1,5 @@
 date-created:: [[2025-07-22]] 
-date-modified::
+date-modified:: [[2025-07-25]] 
 stack:: [[forntend]] 
 tags:: tailwindcss, vite, d3.js
 type::
@@ -85,5 +85,50 @@ public:: true
 		- the below has tested but not fully compatible with my needs.
 			- [GitHub - wesbos/vite-plugin-list-directory-contents: A Vite plugin to list folders contents when in dev mode](https://github.com/wesbos/vite-plugin-list-directory-contents) for directory listing with [[vite]]
 			- [tiddlywiki](https://tiddlywiki.com/static/Formatting%2520in%2520WikiText.html) also was considered but leanring curve is too steep especially its formatting.
+- ## Troubleshooting
+	- [[2025-07-25]] [[vite]] prompts ENOENT error pop-up
+		- Symptom
+			- [[vite]] pops up the error with the message below.
+				- > ENOENT: no such file or directory, scandir 'D:\yonggeun\www\fastlab\.well-known\appspecific\com.chrome.devtools.json'
+			- This means some file is missing in the proejct folder.
+		- Solution
+			- Install [GitHub - ChromeDevTools/vite-plugin-devtools-json: Vite plugin for generating `com.chrome.devtools.json` on the fly in the devserver.](https://github.com/ChromeDevTools/vite-plugin-devtools-json)
+				- ```bash
+				  PS fastlab> npm list
+				  fastlab@0.0.0 \fastlab
+				  ├── @tailwindcss/postcss@4.1.11
+				  ├── autoprefixer@10.4.21
+				  ├── postcss@8.5.6
+				  ├── sirv@3.0.1
+				  ├── tailwindcss@4.1.11
+				  ├── vite-plugin-list-directory-contents@1.4.5
+				  └── vite@7.0.5
+				  
+				  # install the library
+				  PS fastlab> npm install -D vite-plugin-devtools-json
+				  
+				  added 111 packages, changed 2 packages, and audited 278 packages in 5s
+				  
+				  36 packages are looking for funding
+				    run `npm fund` for details
+				  
+				  4 moderate severity vulnerabilities
+				  
+				  To address all issues (including breaking changes), run:
+				    npm audit fix --force
+				  
+				  Run `npm audit` for details.
+				  
+				  PS fastlab> npm list
+				  fastlab@0.0.0 \fastlab
+				  ├── @tailwindcss/postcss@4.1.11
+				  ├── autoprefixer@10.4.21
+				  ├── postcss@8.5.6
+				  ├── sirv@3.0.1
+				  ├── tailwindcss@4.1.11
+				  ├── vite-plugin-devtools-json@0.3.0
+				  ├── vite-plugin-list-directory-contents@1.4.5
+				  └── vite@7.0.5
+				  ```
 - ### log
 	- [[2025-07-22]] Tailwindcss and the vite configuration finished.

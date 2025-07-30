@@ -1,5 +1,5 @@
 date-created:: [[2025-07-23]]
-date-modified::
+date-modified:: [[2025-07-30]] 
 division:: [[frontend]] 
 stack::
 tags::
@@ -8,9 +8,13 @@ public:: true
 
 - ## Summary
 	-
-- ### log
-	- [[2025-07-23]]
-- ### References
+- ## Steps
 	-
-- [[forntend testing server]]
--
+- ## Troubleshooting
+	-
+- ## log
+	- [[2025-07-23]]
+	- [[2025-07-30]] changed the structure
+- ### References
+	- [[forntend testing environment set-up]]
+	- [[css/templates]]
