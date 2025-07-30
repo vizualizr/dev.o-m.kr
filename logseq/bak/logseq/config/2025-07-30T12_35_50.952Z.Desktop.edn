@@ -38,7 +38,7 @@
 
  ;; Enable tooltip preview on hover.
  ;; Default value: true
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
@@ -423,6 +423,6 @@
  :feature/enable-journals? false
  :feature/enable-whiteboards? true
  :feature/enable-flashcards? true
- :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "D:\\yonggeun\\zotero"}}
- :default-home {:page "home"}
+ :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "D:\\yonggeun\\zotero", :include-attachments? true}}
+ :default-home {:page "Start"}
  :publishing/all-pages-public? true}

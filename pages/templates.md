@@ -16,6 +16,6 @@ public:: false
 	- ## Troubleshooting
 		-
 	- ## log
-		- <% today %>
+		- <% today %> Page created.
 	- ### References
 		-

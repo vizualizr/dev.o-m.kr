@@ -21,4 +21,4 @@
 	                            (sort-by :block/updated-at >)
 	                            (take 20)))}
 	  #+END_QUERY
-- [More information on this page.]([[dev.o-m.kr]])
+- [More information on this site.]([[dev.o-m.kr]])
