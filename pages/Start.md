@@ -22,4 +22,3 @@
 	                            (take 20)))}
 	  #+END_QUERY
 - [More information on this page.]([[dev.o-m.kr]])
-- public:: true
