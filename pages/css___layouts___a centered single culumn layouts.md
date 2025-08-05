@@ -2,7 +2,7 @@ date-created:: [[2025-07-30]]
 date-modified::
 division::
 stack::
-tags:: [[tailwindcss]] [[layout]] 
+tags:: [[tailwindcss]] [[layout]] [[css]] 
 type::
 public:: true
 

@@ -1,9 +1,9 @@
 ## Quantitative
 	- The data is representated in **number**.
-	- ### discrete
+	- ### discrete / 이산
 		- Integers. So 'countable but not measurable.'
 		- *e.g. Number of people, Number of house, Number of country*
-	- ### continuous
+	- ### continuous / 연속
 		- Values able to take any real values within a given interval (구간).
 		- *e.g. precipitation, height*
 - ## Qualitative

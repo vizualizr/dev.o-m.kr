@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["dev.o-m.kr"]
+ :favorites ["d3.js"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,9 +420,9 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :feature/enable-whiteboards? true
  :feature/enable-flashcards? true
- :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "D:\\yonggeun\\zotero"}}
+ :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "D:\\yonggeun\\zotero", :include-attachments? false, :overwrite-mode? false}}
  :default-home {:page "Start"}
  :publishing/all-pages-public? true}

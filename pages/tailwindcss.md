@@ -13,8 +13,8 @@ public:: true
 - ## Troubleshooting
 	-
 - ## log
-	- [[2025-07-23]]
+	- [[2025-07-23]] Page Created.
 	- [[2025-07-30]] changed the structure
 - ### References
 	- [[forntend testing environment set-up]]
-	- [[css/templates]]
+	- [[css/layouts]]

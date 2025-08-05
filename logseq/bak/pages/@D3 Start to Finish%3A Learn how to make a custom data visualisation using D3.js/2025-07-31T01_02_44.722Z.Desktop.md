@@ -1,0 +1,18 @@
+tags:: [[#reading]], [[d3.js]]
+date:: [[2022-08-19]]
+publisher:: Independently published
+isbn:: 979-8-8440-0247-2
+title:: @D3 Start to Finish: Learn how to make a custom data visualisation using D3.js
+item-type:: [[book]]
+original-title:: D3 Start to Finish: Learn how to make a custom data visualisation using D3.js
+language:: English
+short-title:: D3 Start to Finish
+authors:: [[Peter Cook]]
+library-catalog:: Amazon
+links:: [Local library](zotero://select/library/items/X7K67XWI), [Web library](https://www.zotero.org/users/5382/items/X7K67XWI)
+num-pages:: 286
+
+- [[Abstract]]
+	- Reviews"One of the best D3 books I've read. The contents are very clear, it is easy to follow and the concepts are very solid."- Javier García Fernández (Journalist & developer)"Teaching D3 is hard and it's been very useful to have a resource like Peter's D3 in Depth website to send students to. With this book Peter delivers something rather more substantial - a non-trivial D3 visualisation built from the ground up. You get the hard earned pro-tips and perspectives delivered in a realistic context - pretty much the gold standard for learning."- Kyran Dale (author of Data Visualization with Python and JavaScript (O'Reilly))"I’d very much recommend this book to anyone who needs to rapidly get up to speed with D3, whether they are an experienced developer or a relative novice. It will give you all the tools and knowledge to create professional grade visualisations."- Mike Hadlow (Developer & blogger)"Being able to master the programmatic building of data visualisations is a treasured capability. Being able to elegantly explain and educate others to help develop their capability is of exceptional value. Peter is a one of those rare talents who flourishes at both: if you want to learn from one of the best, I can’t recommend Peter’s books enough."- Andy Kirk (Visualisation consultant, author, speaker & trainer)DescriptionD3 Start to Finish teaches you how to build a custom, interactive and beautiful data visualisation using the JavaScript library D3.js (versions 6 and 7).The book covers D3 concepts such as selections, joins, requests, scale functions, event handling and transitions. It also covers general web development techniques such as state management and modularisation. In other words, everything you need to know to build a real world, custom data visualisation.You'll also learn how to put these concepts into practice by building an interactive data visualisation called Energy Explorer. This is a custom data visualisation that visualises the energy mix of 141 countries. There are 15 separate build steps and you're taken through each step in detail. There's also a code download link for all 15 steps so you can follow along.Some of the topics covered are:requesting CSV data using D3D3 data joins (including joining nested data)architecting a data visualisation using a layout functiondetailed styling using CSSadding a popup using Flourish's popup librarystate managementanimations using D3 transitionsdata manipulation using Lodashadding a menu, legend and footerTo get the most out of this book you need to be familiar with HTML, SVG, CSS and JavaScript. If you need to get up to speed with these languages I recommend my book Fundamentals of HTML, CSS, SVG & JavaScript for Data Visualisation.
+- [[Attachments]]
+	- [Cook - 2022 - D3 Start to Finish Learn how to make a custom data visualisation using D3.js.pdf](zotero://select/library/items/C8R4ZTFU) {{zotero-imported-file C8R4ZTFU, "Cook - 2022 - D3 Start to Finish Learn how to make a custom data visualisation using D3.js.pdf"}}

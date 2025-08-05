@@ -17,8 +17,8 @@ jobs:
         uses: logseq/publish-spa@main
         with:
           graph-directory: .
-          theme-mode: dark
-          accent-color: crimson
+          theme-mode: light
+          accent-color: blue
 
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll

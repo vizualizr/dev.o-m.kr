@@ -1,0 +1,1 @@
+- [[Gemini CLI]] is assissting this project on [[vs code]]
