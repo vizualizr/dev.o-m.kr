@@ -1,1 +1,1 @@
-- [[content sectioning elements]]
+- [[html/elements/contents sectioning]]

@@ -2,7 +2,7 @@ date-created:: [[2025-08-01]]
 date-modified::
 division::
 stack::
-tags::
+tags:: html
 type::
 public:: true
 

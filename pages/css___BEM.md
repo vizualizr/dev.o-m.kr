@@ -1,5 +1,5 @@
 date-created:: [[2025-07-31]]
-date-modified:: [[2025-08-01]] 
+date-modified:: [[2025-08-05]] 
 division:: [[frontend]] 
 stack::
 tags:: css
@@ -9,7 +9,7 @@ public:: true
 - ## Summary
 	- ```css
 	  .block__element--modifier {
-	    
+	    // your style
 	  }
 	  ```
 	- A rule to oranize your CSS code in effective manner for your colleagues
@@ -45,7 +45,7 @@ public:: true
 				    </div>
 				  </div>
 				  ```
-				- ==WHY== - Becasue in BEM,  elements should not own other elements. If any element belongs to another it is not an element. It is a block.
+				- Becasue in BEM,  elements should not own other elements. If any element belongs to another it is not an element. It is a block.
 				- ```html
 				  <!-- CORRECT BEM STRUCTURE -->
 				  <div class="card">
@@ -66,10 +66,6 @@ public:: true
 				              </div>
 				  </main>
 				  ```
-				- Let's day main tag appears once in this page, but BEM recommendes to style it with class name. why?
-					- The goal is **consistency**. If you need to examine tags and css classes to understand the styling, you wouldn't day the structure has consistency.g
-					- html tag is implicit while css classes and ids are **explicit**.
-					- Maintenance-wise, if main has changed at the tag-level any additional changes requires clearing exsiting styling under `<main>`. On the other hand if your `<main>` style is under class, you can simply apply another style to the main tag on any new page.
 				- Let's say the `<main>` tag appears only once on this page, but BEM recommends styling it using a class name. Why?
 					- The goal is **consistency**. Requiring both tag and class inspection to understand styling undermines consistency in the structure.
 					- HTML tags are implicit, while CSS classes and IDs are **explicit**.
@@ -110,5 +106,6 @@ public:: true
 - ## log
 	- [[2025-07-31]] Page created.
 	- [[2025-08-01]] Paraphrased the naming rules and the strategy.
+	- [[2025-08-05]] Added rules and summary.
 - ### References
 	- [BEM naming rules, recommended.](https://getbem.com/naming/)

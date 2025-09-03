@@ -16,4 +16,4 @@ public:: true
 	- [[2025-08-01]] Page created.
 		- Restructuring the HTML tags in *article page*
 - ### References
-	- [[content sectioning elements]]
+	- [[html/elements/contents sectioning]]
