@@ -39,5 +39,7 @@ public:: true
 		  #+END_QUERY
 		  ```
 		- Claude Sonnet 4 solved the problem in 10 minutes, while Gemini, Copilot, and NotebookLM got lost halfway through the dead code.
+	- [[2025-09-03]] Local folder location has changed.
+		- confirmed the github action works fine in the new location.gi
 - #### References
 	-

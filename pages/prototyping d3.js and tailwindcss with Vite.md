@@ -1,5 +1,5 @@
 date-created:: [[2025-07-22]] 
-date-modified:: [[2025-07-25]] 
+date-modified:: [[2025-10-15]] 
 stack:: [[forntend]] 
 tags:: tailwindcss, vite, d3.js
 type::
@@ -8,7 +8,20 @@ public:: true
 - ## Summary
 	- Build a Windows-based prototype environment for [[tailwindcss]] v4 with [[vite]] and [[d3.js]]
 	- Establish a lightweight configuration with clear structure for iterative UI testing.
-- ## Procedure
+	- Current Packages [[2025-10-15]]
+		- ```bash
+		  PS D:\yonggeun\porter\git\fastlab> npm list
+		  fastlab@0.0.0 D:\yonggeun\porter\git\fastlab
+		  ├── @tailwindcss/postcss@4.1.11
+		  ├── autoprefixer@10.4.21
+		  ├── flyonui@2.3.1
+		  ├── postcss@8.5.6
+		  ├── tailwindcss@4.1.11
+		  ├── vite-plugin-devtools-json@0.3.0
+		  ├── vite-plugin-list-directory-contents@1.4.5
+		  └── vite@7.0.5
+		  ```
+- ## Installation
 	- ### Project Initialization
 		- ```Bash
 		  npx create-vite@latest fastlab --template vanilla
@@ -44,47 +57,83 @@ public:: true
 			  };
 			  ```
 			- >  `@tailwindcss/postcss` is the dedicated PostCSS plugin introduced in Tailwind v4.
+	- ### Directory Structure Overview
+		- ```bash
+		  fastlab/
+		  ├── server.mjs
+		  ├── vite.config.js
+		  ├── postcss.config.cjs
+		  ├── package.json
+		  ├── index.html
+		  ├── src/
+		  │   ├── styles/
+		  │   │   └── style.css
+		  │   └── pages/
+		  │       ├── bar-chart.html
+		  │       └── bar-chart.js
+		  ```
+		- #### considerations
+			- the below has tested but not fully compatible with my needs.
+				- [GitHub - wesbos/vite-plugin-list-directory-contents: A Vite plugin to list folders contents when in dev mode](https://github.com/wesbos/vite-plugin-list-directory-contents) for directory listing with [[vite]]
+				- [tiddlywiki](https://tiddlywiki.com/static/Formatting%2520in%2520WikiText.html) also was considered but leanring curve is too steep especially its formatting.
 	- ### Vite Configuration
-		- ```js
-		  // vite.config.js
-		  import { defineConfig } from "vite";
-		  
-		  export default defineConfig({
-		  css: {
-		    postcss: "./postcss.config.cjs",
-		  },
-		  });
-		  ```
-	- TODO D3.js Installation and Test Integration
-		- ```
-		  npm install d3
-		  ```
-	- LATER Directory Listing Feature (Implementation Deferred)
-		- Attempted integration using `sirv` middleware + `vite.config.js` + `server.mjs`.
-		- Issues encountered:
-			- `createServer()` does not auto-import `vite.config.js`.
-			- `vite.middlewares.listen()` does not handle direct HTTP requests.
-			- Even when wrapped with `http.createServer(vite.middlewares)`, directory listing did not render at root level.
-	- Conclusion: Feature deferred. May require static file server (e.g. `http-server`, `serve`) or custom plugin.
-- ## Directory Structure Overview
-	- ```bash
-	  fastlab/
-	  ├── server.mjs
-	  ├── vite.config.js
-	  ├── postcss.config.cjs
-	  ├── package.json
-	  ├── index.html
-	  ├── src/
-	  │   ├── styles/
-	  │   │   └── style.css
-	  │   └── pages/
-	  │       ├── bar-chart.html
-	  │       └── bar-chart.js
-	  ```
-	- #### considerations
-		- the below has tested but not fully compatible with my needs.
-			- [GitHub - wesbos/vite-plugin-list-directory-contents: A Vite plugin to list folders contents when in dev mode](https://github.com/wesbos/vite-plugin-list-directory-contents) for directory listing with [[vite]]
-			- [tiddlywiki](https://tiddlywiki.com/static/Formatting%2520in%2520WikiText.html) also was considered but leanring curve is too steep especially its formatting.
+		- [[2025-07-22]]
+		  collapsed:: true
+			- ```js
+			  // vite.config.js
+			  import { defineConfig } from "vite";
+			  
+			  export default defineConfig({
+			  css: {
+			    postcss: "./postcss.config.cjs",
+			  },
+			  });
+			  ```
+		- [[2025-10-15]]
+			- ```javascript
+			  import path from "path";
+			  import { fileURLToPath } from "url";
+			  import { defineConfig } from "vite";
+			  import { directoryPlugin } from "vite-plugin-list-directory-contents";
+			  import devtoolsJson from "vite-plugin-devtools-json";
+			  
+			  // ES 모듈에서 __dirname 대신 사용하는 표준 방식
+			  const __filename = fileURLToPath(import.meta.url);
+			  const __dirname = path.dirname(__filename);
+			  
+			  export default defineConfig({
+			    css: {
+			      postcss: "./postcss.config.cjs",
+			      devSourcemap: true,
+			    },
+			    server: {
+			      watch: {
+			        ignored: ["**/node_modules/**"],
+			      },
+			    },
+			    plugins: [devtoolsJson(), directoryPlugin({ baseDir: __dirname })],
+			  });
+			  ```
+- ## Updates
+	- ### Directory listing installed
+		- DONE Directory Listing Feature (Implementation Deferred)
+			- Attempted integration using `sirv` middleware + `vite.config.js` + `server.mjs`.
+			- Issues encountered:
+				- `createServer()` does not auto-import `vite.config.js`.
+				- `vite.middlewares.listen()` does not handle direct HTTP requests.
+				- Even when wrapped with `http.createServer(vite.middlewares)`, directory listing did not render at root level.
+			- Conclusion: Feature deferred. May require static file server (e.g. `http-server`, `serve`) or custom plugin.
+		- [[2025-10-15]] Confirmed installlation of `vite-plugin-list-directory-contents`
+			- [GitHub - wesbos/vite-plugin-list-directory-contents: A Vite plugin to list folders contents when in dev mode](https://github.com/wesbos/vite-plugin-list-directory-contents)
+	- ### Vite Plugin for DevTools Project Settings (devtools.json)
+		- [[2025-10-15]] Directory listing and chrome webdevtools installed.
+		- [GitHub - ChromeDevTools/vite-plugin-devtools-json: Vite plugin for generating `com.chrome.devtools.json` on the fly in the devserver.](https://github.com/ChromeDevTools/vite-plugin-devtools-json)
+	- ### Planned
+	  collapsed:: true
+		- TODO D3.js Installation and Test Integration
+			- ```
+			  npm install d3
+			  ```
 - ## Troubleshooting
 	- [[2025-07-25]] [[vite]] prompts ENOENT error pop-up
 		- Symptom
