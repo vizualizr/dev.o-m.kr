@@ -1,5 +1,3 @@
-tags:: javascript
-
 - [배열과 메서드](https://ko.javascript.info/array-methods)
 - ## Methods
 	- ### `Arr.map()`

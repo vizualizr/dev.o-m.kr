@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["d3.js"]
+ :favorites ["TODO" "js/자바스크립 엔진 동작 개요" "d3.js"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -425,4 +425,7 @@
  :feature/enable-flashcards? true
  :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "D:\\yonggeun\\zotero", :include-attachments? false, :overwrite-mode? false, :page-insert-prefix "@"}}
  :default-home {:page "Start"}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :graph/settings {:excluded-pages? true
+ :orphan-pages? false
+ :builtin-pages? false}}

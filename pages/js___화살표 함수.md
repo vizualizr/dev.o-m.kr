@@ -1,4 +1,4 @@
-alias:: arrow function, 화살표함수
+alias:: js/arrow function, js/화살표함수
 
 - ## Introduction
 	- A delaration of a function with bravity.

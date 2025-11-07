@@ -1,4 +1,5 @@
-alias:: javascript.info
+alias:: javascript.info, js/learning/모던 javascript 튜토리얼
+
 tags:: javascript
 
 - [[모던 JavaScript 튜토리얼/코어 자바스크립트]]

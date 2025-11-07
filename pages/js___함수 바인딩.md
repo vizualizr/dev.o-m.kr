@@ -2,7 +2,7 @@ date-created:: [[2025-10-17]]
 date-modified::
 division:: [[makr]]
 stack:: frontend
-tags:: JavaScript, this, explicit binding, call, apply, bind, 프로그래밍, 개념정리
+tags:: this, explicit binding, call, apply, bind, 프로그래밍, 개념정리
 type::
 
 - ## Summary
@@ -98,3 +98,4 @@ type::
 - ### References
 	- [함수 바인딩](https://ko.javascript.info/bind)
 	-
+-

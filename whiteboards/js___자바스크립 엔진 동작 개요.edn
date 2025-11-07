@@ -1,0 +1,1316 @@
+{:blocks (
+{:block/content "엔진에 속한 요소들을 관리한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9eb53-1255-4fde-ba40-ca2c78bd86a0"}
+:block/parent 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9eb28-1eff-46ed-9869-ead5c27297f7"} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "yellow"
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 12
+:scale [1 -1]
+:pageId "js/추상구문트리"
+:scaleLevel "lg"
+:fill "yellow"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [400 60]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e71bf570-ae19-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [992 512]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 120
+:nonce 1761008682302}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:rotation nil
+:borderRadius 0
+:index 19
+:scale [1 1]
+:scaleLevel "lg"
+:fill ""
+:type "text"
+:size [430 49]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "74a4e961-ae65-11f0-b9dc-1511d6a888f0"
+:padding 4
+:fontWeight 700
+:noFill true
+:isLocked false
+:point [936 3768]
+:lineHeight 1.2
+:fontSize 32
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761030881331
+:italic false
+:text "2. 비최적화 실행 및 최적화 분석"}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 25
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "102ee300-ae6a-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [2809 1372]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "102ee301-ae6a-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [95 0]
+:bindingId "102ee302-ae6a-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761043100977
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208936720
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 29
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "box"
+:size [1256 240]
+:strokeType "line"
+:strokeWidth 4.8
+:opacity 1
+:label "Call Stack"
+:id "2e861aa0-ae2c-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:point [-2600 1552]
+:fontSize 48
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761016526058
+:italic true}}
+:block/updated-at 1761208936720} 
+{:block/created-at 1762415535060
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "68f6efbb-6df7-4c3b-bd24-862047032c51"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 515.8749389648438]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "56de5dd0-ae47-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [1936 1792]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761028192136}}
+:block/updated-at 1762415535060} 
+{:block/created-at 1762415535163
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1183.3 376.47]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "db2bca01-ae42-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [3.16 131.53]
+:bindingId "ae522921-ae42-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761023011871
+:italic false}}
+:block/updated-at 1762415535163} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 3
+:scale [1 1]
+:scaleLevel "lg"
+:fill ""
+:type "text"
+:size [226 49]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b16de710-ae4d-11f0-b9dc-1511d6a888f0"
+:padding 4
+:fontWeight 700
+:noFill true
+:isLocked false
+:point [936 -320]
+:lineHeight 1.2
+:fontSize 32
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761030880143
+:italic false
+:text "1. 소스코드 분석"}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1762415535054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "yellow"
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "68f6ed87-6012-42e6-9a5b-a24e003a6218"
+:scaleLevel "md"
+:fill "yellow"
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 196.81243896484375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "2c94b6a0-ae47-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [1472 1792]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761028121096}}
+:block/updated-at 1762415535054} 
+{:block/created-at 1761208921710
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 27
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [333 67]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c97615e0-afeb-11f0-b9dc-1511d6a888f0"
+:padding 4
+:fontWeight 700
+:noFill true
+:point [-1448 -576]
+:lineHeight 1.2
+:fontSize 48
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761208768798
+:italic false
+:text "memory heap"}}
+:block/updated-at 1761208921710} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 14
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e18bbf02-ae64-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1672 1709.25]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "e18bbf00-ae64-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [0 78.75]
+:bindingId "e18bbf01-ae64-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761040875298
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1762415535047
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "yellow"
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "68f7017a-a4a6-4d2a-a7a3-b95b91f80c12"
+:scaleLevel "md"
+:fill "yellow"
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 232.21893310546875]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b71de9a0-ae46-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [1472 2440]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761027924086}}
+:block/updated-at 1762415535047} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f71ad0-a123-419f-8e4c-fbaea74120c0"}
+:block/parent 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9903a-d02b-4bbb-9075-24235236ba2a"} 
+{:block/content "### 런타임 시스템"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9df60-bfce-4212-a0d2-f8e378a93ff4"}
+:block/parent 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"} 
+{:block/content "런타임 시스템 안에는 ."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/parent 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9eb2b-0811-43c3-b41a-681f9fed00fe"} 
+{:block/created-at 1761208909572
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "gray"
+:rotation 0
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "lg"
+:fill "gray"
+:type "box"
+:size [960 664]
+:strokeType "line"
+:strokeWidth 3.2
+:opacity 1
+:label ""
+:id "76704740-ae28-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:point [936 -272]
+:fontSize 32
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761022622679
+:italic true}}
+:block/updated-at 1761208909572} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "red"
+:borderRadius 2
+:index 26
+:scale [1 1]
+:scaleLevel "md"
+:fill "red"
+:type "box"
+:size [184 48]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Hot Code"
+:id "2de11ee0-ae6a-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill false
+:point [2600 1416]
+:fontSize 20
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761043150847
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "red"
+:collapsed false
+:borderRadius 8
+:index 30
+:scale [1 1]
+:pageId "js/콜 스택"
+:scaleLevel "md"
+:fill "red"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [400 93.00002820823026]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "32bb38d0-ae2c-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [152 1256]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 93.00002820823026
+:nonce 1761016532149}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208921711
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:children ["c97615e0-afeb-11f0-b9dc-1511d6a888f0" "a9869430-afeb-11f0-b9dc-1511d6a888f0"]
+:index 0
+:scale [1 1]
+:type "group"
+:size [0 0]
+:id "10843d90-afec-11f0-b9dc-1511d6a888f0"
+:point [-312 240]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761208887595}}
+:block/updated-at 1761208921711} 
+{:block/created-at 1761208918687
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "yellow"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 9
+:scale [1 1]
+:pageId "js/바이트코드"
+:scaleLevel "lg"
+:fill "yellow"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [400 240]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [992 2440]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 115
+:nonce 1761012915348}}
+:block/updated-at 1761208918687} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:children ["74a4e960-ae65-11f0-b9dc-1511d6a888f0" "74a4e961-ae65-11f0-b9dc-1511d6a888f0"]
+:index 17
+:scale [1 1]
+:type "group"
+:size [0 0]
+:id "83ee5550-ae65-11f0-b9dc-1511d6a888f0"
+:point [0 1192]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761041147883}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208909572
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:children ["76704740-ae28-11f0-b9dc-1511d6a888f0" "b16de710-ae4d-11f0-b9dc-1511d6a888f0"]
+:index 1
+:scale [1 1]
+:type "group"
+:size [1 1]
+:id "1155c080-ae4e-11f0-b9dc-1511d6a888f0"
+:point [-8 -152]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761031077810}}
+:block/updated-at 1761208909572} 
+{:block/created-at 1762415535074
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 13
+:scale [1 1]
+:pageId "js/파서"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 607.4687194824219]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a421e150-ae17-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [992 -232]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761007704365}}
+:block/updated-at 1762415535074} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 23
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "b5c65b02-ae69-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1873 1366.84]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0.6]
+:bindingId "d5b0d3a1-ae69-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [688 0]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761042949478
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/content "해당 요소들을 관리한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9eb2b-0811-43c3-b41a-681f9fed00fe"}
+:block/parent 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9eb53-1255-4fde-ba40-ca2c78bd86a0"} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 20
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "4b5208d2-ae66-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1192 2681]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "4b5208d0-ae66-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [0 155]
+:bindingId "4b5208d1-ae66-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761041482233
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "gray"
+:rotation 0
+:borderRadius 2
+:index 18
+:scale [1 1]
+:refs []
+:scaleLevel "lg"
+:fill "gray"
+:type "box"
+:size [1440 1904]
+:strokeType "line"
+:strokeWidth 3.2
+:opacity 1
+:label "\n\n\n"
+:id "74a4e960-ae65-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [936 3816]
+:fontSize 32
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761029867923
+:italic true}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 10
+:scale [1 1]
+:pageId "68f6f979-9a98-4572-8154-9cf5a05d1d1d"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 428.2500989576078]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [1472 1280]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761023578038}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1761208945861
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 28
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "box"
+:size [1976 2832]
+:strokeType "line"
+:strokeWidth 4.8
+:opacity 1
+:label ""
+:id "a9869430-afeb-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [-1448 -488]
+:fontSize 48
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761016527316
+:italic true}}
+:block/updated-at 1761208945861} 
+{:block/created-at 1762415535134
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 16
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "ef2ad650-ae64-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1782.1 2269.21]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [152.9 0]
+:bindingId "ef2aaf40-ae64-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [0 166.79]
+:bindingId "ef2aaf41-ae64-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761040898331
+:italic false}}
+:block/updated-at 1762415535134} 
+{:block/created-at 1761208950568
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 31
+:scale [1 1]
+:pageId "68f9df60-bfce-4212-a0d2-f8e378a93ff4"
+:scaleLevel "lg"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [1164 1381.1595796712909]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "99cc73d0-afe5-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [-784 -416]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761206112101}}
+:block/updated-at 1761208950568} 
+{:block/created-at 1762415535133
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 21
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "4ec7a792-ae66-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1192.34 2673.22]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [278.96 0]
+:bindingId "4ec7a790-ae66-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [0 162.78]
+:bindingId "4ec7a791-ae66-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761041488185
+:italic false}}
+:block/updated-at 1762415535133} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 24
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [240 232]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Hosting\nSystem"
+:id "102ebbf0-ae6a-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:point [2908 1256]
+:fontSize 20
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761043101016
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/content "[[js/프로파일러]]는 코드 실행 최적화를 위해 코드를 감시하고 최저화가 필요한 뜨거운 함수(hot function)을 식별한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/parent 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/uuid #uuid "68f71ad0-a123-419f-8e4c-fbaea74120c0"} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 22
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [240 232]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "기계어 코드"
+:id "7c4c4e20-ae69-11f0-b9dc-1511d6a888f0"
+:fontWeight 700
+:noFill false
+:point [2568 1256]
+:fontSize 20
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761042853600
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/created-at 1762415535143
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 15
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "e90ad812-ae64-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1873 1888.83]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0.35]
+:bindingId "e90ad810-ae64-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [59 0]
+:bindingId "e90ad811-ae64-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761040887871
+:italic false}}
+:block/updated-at 1762415535143} 
+{:block/created-at 1762415535067
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "68f6ffc9-e20e-44a7-8b89-a8c7daa1f11d"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 293.03131103515625]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "612a4e50-ae4e-11f0-b9dc-1511d6a888f0"
+:noFill false
+:point [992 2840]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761031212180}}
+:block/updated-at 1762415535067} 
+{:block/content "```js\n// 반복적인 계산을 수행하는 함수 (최적화 대상)\nfunction calculateSum(n) {\n// 삼각수 연산 (0 + 1 + 2 + ... + (n-1))을 시작한다.\n  let sum = 0;\n  // 충분히 많은 반복을 통해 '뜨겁게' 만듭니다.\n  for (let i = 0; i < n; i++) {\n    sum += i; // 단순한 덧셈 연산\n  }\n  return sum;\n}\n\n// 위 함수를 여러 번 호출하여 JIT 컴파일을 유도하는 함수\nfunction runCalculations() {\n  console.log(\"계산 시작...\");\n  const startTime = performance.now();\n\n  // calculateSum 함수를 매우 많이 호출합니다 (예: 10만 번)\n  // 이 반복 호출이 calculateSum을 '뜨겁게' 만듭니다.\n  for (let j = 0; j < 100000; j++) {\n    calculateSum(1000); // 함수 내부 반복 횟수\n  }\n\n  const endTime = performance.now();\n  console.log(`계산 완료! 총 소요 시간: ${(endTime - startTime).toFixed(2)}ms`);\n}\n\n// 함수 실행\nrunCalculations();\n\n// 추가 호출 (이미 최적화된 상태에서 실행될 가능성이 높음)\nconsole.log(\"추가 계산 시작 (최적화 후)...\");\nconst startTimeOptimized = performance.now();\ncalculateSum(1000); // 단일 호출\nconst endTimeOptimized = performance.now();\nconsole.log(`추가 계산 완료! 소요 시간: ${(endTimeOptimized - startTimeOptimized).toFixed(4)}ms`);\n// 실행 결과는\n\n```"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9903a-d02b-4bbb-9075-24235236ba2a"}
+:block/parent 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9df60-bfce-4212-a0d2-f8e378a93ff4"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9eb28-1eff-46ed-9869-ead5c27297f7"}
+:block/parent 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9eb25-19fd-499c-b129-21027a4320df"} 
+{:block/created-at 1761208918688
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 11
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0"
+:fontWeight 400
+:noFill true
+:point [1204.34 1712.25]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 726.75]
+:bindingId "905cefd1-ae4d-11f0-b9dc-1511d6a888f0"}
+:end 
+{:id "end"
+:canBind true
+:point [380.4 0]
+:bindingId "f7db38b1-ae3e-11f0-b9dc-1511d6a888f0"}}
+:decorations 
+{:end "arrow"}
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:nonce 1761024596051
+:italic false}}
+:block/updated-at 1761208918688} 
+{:block/content "## TODO 자바스크립트 엔진의 구성 요소\n:LOGBOOK:\nCLOCK: [2025-11-06 Thu 15:52:40]--[2025-11-06 Thu 15:52:40] =>  00:00:00\n:END:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9eb67-6cad-4e9e-95ea-5a442412b0a9"}
+:block/parent 
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"}
+:block/properties 
+{:heading 2}
+:block/uuid #uuid "68f9ec4b-a8b3-4ca6-bc7c-ce5e33bf8c9c"} 
+{:block/created-at 1762415539757
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "red"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 32
+:scale [1 1]
+:pageId "68f9ec4b-a8b3-4ca6-bc7c-ce5e33bf8c9c"
+:scaleLevel "md"
+:fill "red"
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [456 350.43752224501486]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4caf4430-afed-11f0-9498-7726279817b4"
+:noFill false
+:point [-2736 -720]
+:parentId "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:collapsedHeight 0
+:nonce 1761209417825}}
+:block/updated-at 1762415539757} 
+{:block/content "### 런타임 시스템"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ec4b-a8b3-4ca6-bc7c-ce5e33bf8c9c"}
+:block/parent 
+{:block/uuid #uuid "68f9ec4b-a8b3-4ca6-bc7c-ce5e33bf8c9c"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "68f9ec8a-b91c-47d2-b97e-5e4ce8ac776e"} 
+{:block/content "아래에 나열한 자원을 총괄 관리한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ec8a-b91c-47d2-b97e-5e4ce8ac776e"}
+:block/parent 
+{:block/uuid #uuid "68f9ec8a-b91c-47d2-b97e-5e4ce8ac776e"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9ec97-53e5-4e89-b9cf-2e4293195a85"} 
+{:block/content "메모리를 관리한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ec97-53e5-4e89-b9cf-2e4293195a85"}
+:block/parent 
+{:block/uuid #uuid "68f9ec97-53e5-4e89-b9cf-2e4293195a85"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9ed1b-c676-4ce7-a71c-4c608ea12add"} 
+{:block/content "실행을 관리한다."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ed1b-c676-4ce7-a71c-4c608ea12add"}
+:block/parent 
+{:block/uuid #uuid "68f9ec97-53e5-4e89-b9cf-2e4293195a85"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9ed20-ca7c-4f89-9310-a162a322c766"} 
+{:block/content "#### 메모리 관리자"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ec97-53e5-4e89-b9cf-2e4293195a85"}
+:block/parent 
+{:block/uuid #uuid "68f9ec8a-b91c-47d2-b97e-5e4ce8ac776e"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "68f9ee0a-d6d1-4aa5-86cc-4a2d641d8c3f"} 
+{:block/content "OS와 통신하며"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68f9ee0a-d6d1-4aa5-86cc-4a2d641d8c3f"}
+:block/parent 
+{:block/uuid #uuid "68f9ee0a-d6d1-4aa5-86cc-4a2d641d8c3f"}
+:block/properties 
+{}
+:block/uuid #uuid "68f9ee0e-4648-4cb7-8caf-7a5792679f8a"})
+:pages (
+{:block/uuid #uuid "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "68f6d837-1b6e-449d-ad14-8ddd45cf5494"
+:name "js/자바스크립 엔진 동작 개요"
+:bindings 
+{:ae522921-ae42-11f0-b9dc-1511d6a888f0 
+{:id "ae522921-ae42-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "e71bf570-ae19-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.49 0.89]
+:distance 4}
+:48f366e1-ae3b-11f0-b9dc-1511d6a888f0 
+{:id "48f366e1-ae3b-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "76704740-ae28-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e90ad811-ae64-11f0-b9dc-1511d6a888f0 
+{:id "e90ad811-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "e90ad812-ae64-11f0-b9dc-1511d6a888f0"
+:toId "56de5dd0-ae47-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.52 0.19]
+:distance 4}
+:4b5208d0-ae66-11f0-b9dc-1511d6a888f0 
+{:id "4b5208d0-ae66-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "4b5208d2-ae66-11f0-b9dc-1511d6a888f0"
+:toId "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:20a81c61-ae6a-11f0-b9dc-1511d6a888f0 
+{:id "20a81c61-ae6a-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "b5c65b02-ae69-11f0-b9dc-1511d6a888f0"
+:toId "7c4c4e20-ae69-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.51 0.44]
+:distance 4}
+:e18bbf00-ae64-11f0-b9dc-1511d6a888f0 
+{:id "e18bbf00-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "e18bbf02-ae64-11f0-b9dc-1511d6a888f0"
+:toId "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e6736a81-ae47-11f0-b9dc-1511d6a888f0 
+{:id "e6736a81-ae47-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0"
+:toId "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.47 0.29]
+:distance 4}
+:e90ad810-ae64-11f0-b9dc-1511d6a888f0 
+{:id "e90ad810-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "e90ad812-ae64-11f0-b9dc-1511d6a888f0"
+:toId "2c94b6a0-ae47-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:102ee302-ae6a-11f0-b9dc-1511d6a888f0 
+{:id "102ee302-ae6a-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "102ee300-ae6a-11f0-b9dc-1511d6a888f0"
+:toId "102ebbf0-ae6a-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:db2bca01-ae42-11f0-b9dc-1511d6a888f0 
+{:id "db2bca01-ae42-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "a421e150-ae17-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.46 0.48]
+:distance 4}
+:f7db38b1-ae3e-11f0-b9dc-1511d6a888f0 
+{:id "f7db38b1-ae3e-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0"
+:toId "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.51 0.6]
+:distance 4}
+:121281d1-ae43-11f0-b9dc-1511d6a888f0 
+{:id "121281d1-ae43-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "76704740-ae28-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.34 0.46]
+:distance 4}
+:905cefd1-ae4d-11f0-b9dc-1511d6a888f0 
+{:id "905cefd1-ae4d-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0"
+:toId "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.48 0.17]
+:distance 4}
+:4ec7a790-ae66-11f0-b9dc-1511d6a888f0 
+{:id "4ec7a790-ae66-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "4ec7a792-ae66-11f0-b9dc-1511d6a888f0"
+:toId "b71de9a0-ae46-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:d5b0d3a1-ae69-11f0-b9dc-1511d6a888f0 
+{:id "d5b0d3a1-ae69-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "b5c65b02-ae69-11f0-b9dc-1511d6a888f0"
+:toId "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.49 0.21]
+:distance 4}
+:b8225e21-ae42-11f0-b9dc-1511d6a888f0 
+{:id "b8225e21-ae42-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "76704740-ae28-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.41 0.38]
+:distance 4}
+:bf17d4d1-ae42-11f0-b9dc-1511d6a888f0 
+{:id "bf17d4d1-ae42-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "a421e150-ae17-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.41 0.99]
+:distance 4}
+:f7db38b0-ae3e-11f0-b9dc-1511d6a888f0 
+{:id "f7db38b0-ae3e-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0"
+:toId "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:ef2aaf41-ae64-11f0-b9dc-1511d6a888f0 
+{:id "ef2aaf41-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "ef2ad650-ae64-11f0-b9dc-1511d6a888f0"
+:toId "b71de9a0-ae46-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:102ee301-ae6a-11f0-b9dc-1511d6a888f0 
+{:id "102ee301-ae6a-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "102ee300-ae6a-11f0-b9dc-1511d6a888f0"
+:toId "7c4c4e20-ae69-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:4b5208d1-ae66-11f0-b9dc-1511d6a888f0 
+{:id "4b5208d1-ae66-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "4b5208d2-ae66-11f0-b9dc-1511d6a888f0"
+:toId "612a4e50-ae4e-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:b5c65b01-ae69-11f0-b9dc-1511d6a888f0 
+{:id "b5c65b01-ae69-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "b5c65b02-ae69-11f0-b9dc-1511d6a888f0"
+:toId "7c4c4e20-ae69-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.65 0.44]
+:distance 4}
+:e18bbf01-ae64-11f0-b9dc-1511d6a888f0 
+{:id "e18bbf01-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "e18bbf02-ae64-11f0-b9dc-1511d6a888f0"
+:toId "2c94b6a0-ae47-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:c6baa281-ae42-11f0-b9dc-1511d6a888f0 
+{:id "c6baa281-ae42-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "a421e150-ae17-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.04 0.94]
+:distance 4}
+:ef2aaf40-ae64-11f0-b9dc-1511d6a888f0 
+{:id "ef2aaf40-ae64-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "ef2ad650-ae64-11f0-b9dc-1511d6a888f0"
+:toId "56de5dd0-ae47-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:9316dd81-ae3e-11f0-b9dc-1511d6a888f0 
+{:id "9316dd81-ae3e-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "48f366e0-ae3b-11f0-b9dc-1511d6a888f0"
+:toId "e71bf570-ae19-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.17 0.89]
+:distance 4}
+:4ec7a791-ae66-11f0-b9dc-1511d6a888f0 
+{:id "4ec7a791-ae66-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "4ec7a792-ae66-11f0-b9dc-1511d6a888f0"
+:toId "612a4e50-ae4e-11f0-b9dc-1511d6a888f0"
+:handleId "end"
+:point [0.21 0.23]
+:distance 4}
+:b5c65b00-ae69-11f0-b9dc-1511d6a888f0 
+{:id "b5c65b00-ae69-11f0-b9dc-1511d6a888f0"
+:type "line"
+:fromId "b5c65b02-ae69-11f0-b9dc-1511d6a888f0"
+:toId "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("10843d90-afec-11f0-b9dc-1511d6a888f0" "1155c080-ae4e-11f0-b9dc-1511d6a888f0" "76704740-ae28-11f0-b9dc-1511d6a888f0" "b16de710-ae4d-11f0-b9dc-1511d6a888f0" "48f366e0-ae3b-11f0-b9dc-1511d6a888f0" "b71de9a0-ae46-11f0-b9dc-1511d6a888f0" "2c94b6a0-ae47-11f0-b9dc-1511d6a888f0" "56de5dd0-ae47-11f0-b9dc-1511d6a888f0" "612a4e50-ae4e-11f0-b9dc-1511d6a888f0" "bf54f5f0-ae23-11f0-b9dc-1511d6a888f0" "962eb6c0-ae3c-11f0-b9dc-1511d6a888f0" "f7db38b2-ae3e-11f0-b9dc-1511d6a888f0" "e71bf570-ae19-11f0-b9dc-1511d6a888f0" "a421e150-ae17-11f0-b9dc-1511d6a888f0" "e18bbf02-ae64-11f0-b9dc-1511d6a888f0" "e90ad812-ae64-11f0-b9dc-1511d6a888f0" "ef2ad650-ae64-11f0-b9dc-1511d6a888f0" "83ee5550-ae65-11f0-b9dc-1511d6a888f0" "74a4e960-ae65-11f0-b9dc-1511d6a888f0" "74a4e961-ae65-11f0-b9dc-1511d6a888f0" "4b5208d2-ae66-11f0-b9dc-1511d6a888f0" "4ec7a792-ae66-11f0-b9dc-1511d6a888f0" "7c4c4e20-ae69-11f0-b9dc-1511d6a888f0" "b5c65b02-ae69-11f0-b9dc-1511d6a888f0" "102ebbf0-ae6a-11f0-b9dc-1511d6a888f0" "102ee300-ae6a-11f0-b9dc-1511d6a888f0" "2de11ee0-ae6a-11f0-b9dc-1511d6a888f0" "c97615e0-afeb-11f0-b9dc-1511d6a888f0" "a9869430-afeb-11f0-b9dc-1511d6a888f0" "2e861aa0-ae2c-11f0-b9dc-1511d6a888f0" "32bb38d0-ae2c-11f0-b9dc-1511d6a888f0" "99cc73d0-afe5-11f0-b9dc-1511d6a888f0" "4caf4430-afed-11f0-9498-7726279817b4")}}
+:block/namespace 
+{:db/id 1416}
+:block/updated-at 1762415562381
+:block/created-at 1761007671315
+:block/type "whiteboard"
+:block/name "js/자바스크립 엔진 동작 개요"
+:block/original-name "js/자바스크립 엔진 동작 개요"})}

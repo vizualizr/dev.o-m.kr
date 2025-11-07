@@ -2,7 +2,7 @@ date-created:: [[2025-07-28]]
 date-modified::
 division::
 stack::
-tags:: [[javascript]] 
+tags:: 
 type::
 public:: true
 alias:: 접근자 함수

@@ -1,8 +1,8 @@
-alias:: javascript/optional chaining
-tags:: javascript
+alias:: js/optional chaining
+tags::
 
 - [옵셔널 체이닝 '?.'](https://ko.javascript.info/optional-chaining)
-- > 내 기준, 최악의 문법이다. 하지만 간편함은 이루 말할 수 없다. 사카린같은 문법이다.
+- > 내 기준, 최악의 문법이다. 하지만 간편함은 이루 말할 수 없다. 농약같은 지지배.
 - 접근하려는 객체에 원하는 속성이 없을 때에도 에러 처리를 별도로 지정하지 않고 안전하게 접근할 수 있다.
 - ### 요약 자세한 내용은 [다음](https://ko.javascript.info/optional-chaining#ref-282)을 참조하라.
 	- 옵셔널 체이닝 문법 `?.`은 세 가지 형태로 사용할 수 있습니다.

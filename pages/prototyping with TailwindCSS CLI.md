@@ -1,7 +1,7 @@
 date-created:: [[2025-08-05]]
-date-modified::
+date-modified:: [[2025-11-06]] 
 division::
-stack::
+stack:: [[frontend]] 
 tags:: css, tailwindcss
 type::
 public:: true
@@ -11,6 +11,8 @@ public:: true
 - ## Steps
 	- ### Requirements
 		- [[vs code]] with [live server extension](https://github.com/ritwickdey/vscode-live-server).
+		- Testing location
+			- [D:\yonggeun\porter\git\fastlab\index.html](file:///D:\yonggeun\porter\git\fastlab\)
 	- ### Configurations
 		- ```bash
 		  npm install tailwindcss @tailwindcss/cli
@@ -79,7 +81,23 @@ public:: true
 	- ### Result
 		- As you edit `input.css`, the browser will udpate the result.
 - ## Troubleshooting
-	-
+	- TODO [[2025-11-06]] Error on `npm run dev`
+		- ```bash
+		  PS D:\yonggeun\porter\git\fastlab> npm run dev
+		  
+		  > fastlab@0.0.0 dev
+		  > vite
+		  
+		  
+		    VITE v7.0.5  ready in 741 ms
+		  
+		    ➜  Local:   http://localhost:5173/
+		    ➜  Network: use --host to expose
+		    ➜  press h + enter to show help
+		  /*! 🚀 flyonui 2.3.1 */
+		  
+		  A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+		  ```
 - ## log
 	- [[2025-08-05]] Page created.
 - ### References

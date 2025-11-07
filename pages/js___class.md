@@ -2,7 +2,7 @@ date-created:: [[2025-10-17]]
 date-modified::
 division:: [[makr]]
 stack:: 
-tags:: JavaScript, class, 생성자함수, prototype, 객체지향
+tags:: class, 생성자함수, prototype, 객체지향
 type::
 
 - ## Summary

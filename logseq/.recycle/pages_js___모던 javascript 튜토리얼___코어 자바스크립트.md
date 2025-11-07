@@ -1,7 +1,7 @@
 tags:: javascript
 
 - ## Records
-	- {{query (and [[모던 javascript 튜토리얼/코어 자바스크립트]] "#once")}}
+	- {{query (and [[js/모던 javascript 튜토리얼/코어 자바스크립트]] "#once")}}
 	  query-properties:: [:block]
 - ## Contents
 	- ### [소개](https://ko.javascript.info/getting-started)
@@ -50,7 +50,7 @@ tags:: javascript
 		  [함수](https://ko.javascript.info/function-basics)
 		- logseq.order-list-type:: number
 		  [함수 표현식](https://ko.javascript.info/function-expressions)
-		- [[화살표 함수 기본]] #2025-10-16 #once
+		- [[js/화살표 함수 기본]] #2025-10-16 #once
 		  logseq.order-list-type:: number
 			- logseq.order-list-type:: number
 			  [화살표 함수 기본](https://ko.javascript.info/arrow-functions-basics)
@@ -85,7 +85,7 @@ tags:: javascript
 			  [메서드와 this](https://ko.javascript.info/object-methods)
 		- logseq.order-list-type:: number
 		  [new 연산자와 생성자 함수](https://ko.javascript.info/constructor-new)
-		- [[옵셔널 체이닝]] #2025-02-14 #once #DONE #2025-02-17
+		- [[js/옵셔널 체이닝]] #2025-02-14 #once #DONE #2025-02-17
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [심볼형](https://ko.javascript.info/symbol)
@@ -101,7 +101,7 @@ tags:: javascript
 		  [문자열](https://ko.javascript.info/string)
 		- [배열](https://ko.javascript.info/array)
 		  logseq.order-list-type:: number
-		- [[배열과 메서드]] #2025-07-30 ^^#once^^ #done
+		- [[js/배열과 메서드]] #2025-07-30 ^^#once^^ #done
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [iterable 객체](https://ko.javascript.info/iterable)
@@ -121,14 +121,14 @@ tags:: javascript
 	  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [재귀와 스택](https://ko.javascript.info/recursion)
-		- [[나머지 매개변수와 전개 구문]] #once #done #2025-02-17
+		- [[js/나머지 매개변수와 전개 구문]] #once #done #2025-02-17
 		  logseq.order-list-type:: number
-		- [변수의 유효범위와 클로저]([[javascript/변수의 유효범위와 클로저]]) #once #DONE #2025-10-18
+		- [[js/변수의 유효범위와 클로저]] #once #DONE #2025-10-18
 		  logseq.order-list-type:: number
 		  collapsed:: true
 			- logseq.order-list-type:: number
 			  [변수의 유효범위와 클로저](https://ko.javascript.info/closure)
-		- [[오래된 var]] #once #2025-03-03 #DONE
+		- [[js/오래된 var]] #once #2025-03-03 #DONE
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [전역 객체](https://ko.javascript.info/global-object)
@@ -140,7 +140,7 @@ tags:: javascript
 		  [setTimeout과 setInterval을 이용한 호출 스케줄링](https://ko.javascript.info/settimeout-setinterval)
 		- logseq.order-list-type:: number
 		  [call/apply와 데코레이터, 포워딩](https://ko.javascript.info/call-apply-decorators)
-		- [[함수 바인딩]] #2025-10-17 #once
+		- [[js/함수 바인딩]] #2025-10-17 #once
 		  logseq.order-list-type:: number
 		  collapsed:: true
 			- logseq.order-list-type:: number

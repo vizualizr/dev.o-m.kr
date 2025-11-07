@@ -4,7 +4,6 @@
 	- ### current stack
 		- [[astro]], [[d3.js]], [[tailwindcss]]
 		- together with AI agents, [[Copilot]], [[Gemini]], [[Claude]]
-		-
 - ## Updates
 	- query-sort-by:: updated-at
 	  query-table:: true
