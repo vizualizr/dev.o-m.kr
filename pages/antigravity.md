@@ -5,7 +5,7 @@ stack::
 tags:: IDE
 type::
 alias::
-public:: false
+public::
 
 - ## Summary
 	- Autonomously manage artifacts to pertain the development context in long term.

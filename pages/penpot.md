@@ -5,7 +5,7 @@ stack::
 tags::
 type::
 alias::
-public:: false
+public::
 
 - ## Summary
 	-
