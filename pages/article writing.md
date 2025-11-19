@@ -1,5 +1,5 @@
 date-created:: [[2025-08-05]]
-date-modified::
+date-modified:: [[2025-08-05]]
 division::
 stack::
 tags::

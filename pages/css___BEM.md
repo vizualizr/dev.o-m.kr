@@ -5,6 +5,7 @@ stack::
 tags:: css
 type::
 public:: true
+status:: [[ai-proofed]]
 
 - ## Summary
 	- ```css

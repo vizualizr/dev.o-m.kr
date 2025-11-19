@@ -3,11 +3,12 @@ template-including-parent:: false
 public:: false
 
 	- date-created:: <% today %>
-	  date-modified::
+	  date-modified:: <% today %>
 	  division::
 	  stack::
 	  tags::
 	  type::
+	  alias::
 	  public:: false
 	- ## Summary
 		-
