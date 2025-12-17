@@ -47,7 +47,9 @@
 - ### Notes
 	- hosted on GitHub Pages with [logseq-SPA action]([[Applying custom domain to GitHub Pages repo]])
 - ### Log
-  collapsed:: true
 	- [[2025-11-13]] Advanced Query in ((691682d3-0523-4306-8742-d3f7f284aaea)) has been updated.
 		- To filter the latest article based the user-defined page property, not the native property.
 		- See the github issue. [Re-index resets 'created-at' property](https://github.com/logseq/logseq/issues/8556).
+	- [[2025-12-16]] Git enabled.
+		- Local and remote git repo are enabled.
+		- https://github.com/vizualizr/fastlab

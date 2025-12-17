@@ -15,5 +15,7 @@ public:: false
 	-
 - ## log
 	- [[2025-11-19]] Page created.
+	- [[2025-12-16]] git activated.
+	-
 - ### References
 	-

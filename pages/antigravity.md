@@ -1,5 +1,5 @@
 date-created:: [[2025-11-19]]
-date-modified:: [[2025-11-19]]
+date-modified:: [[2025-11-21]]
 division::
 stack::
 tags:: IDE
@@ -14,6 +14,7 @@ public::
 	-
 - ## Troubleshooting
 	- ### Artifacts
+	  collapsed:: true
 		- > We define an Artifact as anything that the agent creates to allow it to 
 		  get its work done or communicate its work and thinking to the human 
 		  user.
@@ -51,8 +52,12 @@ public::
 					- ![knowledge-view.png](../assets/knowledge-view_1763532073119_0.png)
 	- ### Agent Manager
 		- Oversees multiple workspaces.
-		-
+	- ### Managing Artifacts
+	- ### How to preserve context
+		- antigravity automatically add required documents to a project folder.
+		- But if you need you can add your own documents in `.md` format, then tell antigravity to follow the content written in your file.
+		- In doing so, do remember the spec documentation for human differs from the one for agent. The simple comparison is as below. Refer [[Spec for Agent]].
 - ## log
 	- [[2025-11-19]] Page created.
 - ### References
-	-
+	- [Code search results · GitHub](https://github.com/search?q=path%3AAGENTS.md&type=code)
