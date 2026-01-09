@@ -1,10 +1,12 @@
-date-created:: [[2025-08-11]] 
-date-modified:: [[2025-08-16]] 
+date-created:: [[2025-08-11]]
+date-modified:: [[2025-08-16]]
 division::
 stack::
 tags:: logo
 type::
+alias:: logo, 로고
 public:: true
+title:: design system/logo
 
 - ## Summary
 	- Documenting how o-m logo has been developing
@@ -39,4 +41,6 @@ public:: true
 			- `M` has to have a tail to stabilize the blob as a whole.
 			- The rounded chevron in the middle of `M` is slightly lower that the baseline.
 - ### References
+	- ![image.png](../assets/image_1767853311753_0.png)
+	- “Neiman Marcus Stats Logo” ([Fishel, 2002, p. 56](zotero://select/library/items/9BNJ7MHP)) ([pdf](zotero://open-pdf/library/items/LRDPBZSA?page=56&annotation=DXWSYB26))
 	-

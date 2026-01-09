@@ -4,6 +4,7 @@ division::
 stack::
 tags::
 type::
+alias:: gemini, 제미나이, 잼민이
 public:: true
 
 - ## Introduction
@@ -56,7 +57,7 @@ public:: true
 			  > Give me a summary of all of the changes that went in yesterday
 			  ```
 - ## Troubleshooting
-	-
+	- [[Gemini CLI/사용자 인증 방법과 사용량의 관계]]
 - ### log
 	- [[2025-08-01]] Installed.
 		- the same page exists on the private logseq as a software item.
