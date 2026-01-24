@@ -33,14 +33,19 @@ jobs:
       - name: SEO - Create 404.html for History API
         run: cp $GITHUB_WORKSPACE/www/index.html $GITHUB_WORKSPACE/www/404.html
 
-      - name: SEO - Generate Sitemap
+      - name: SEO - Generate Dynamic Sitemap
         run: |
           DOMAIN="https://dev.o-m.kr"
           echo "<?xml version='1.0' encoding='UTF-8'?>" > $GITHUB_WORKSPACE/www/sitemap.xml
           echo "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>" >> $GITHUB_WORKSPACE/www/sitemap.xml
+          
+          # 파일 목록을 읽어와서 XML 특수문자를 치환합니다.
           find . -maxdepth 2 -name "*.md" ! -name "logseq*" | sed "s|^\./||" | sed "s|.md$||" | while read page; do
-            echo "<url><loc>$DOMAIN/#/page/$page</loc></url>" >> $GITHUB_WORKSPACE/www/sitemap.xml
+            # URL 내의 & 기호를 &amp; 로 변환 (XML 에러 방지)
+            SAFE_PAGE=$(echo "$page" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&apos;/g')
+            echo "<url><loc>$DOMAIN/#/page/$SAFE_PAGE</loc></url>" >> $GITHUB_WORKSPACE/www/sitemap.xml
           done
+          
           echo "</urlset>" >> $GITHUB_WORKSPACE/www/sitemap.xml
 
       - name: SEO - Create robots.txt
