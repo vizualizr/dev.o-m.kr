@@ -20,8 +20,40 @@ jobs:
           theme-mode: light
           accent-color: blue
 
-      - name: Add a nojekyll file # to make sure asset paths are correctly identified
+      # --- [SEO & AdSense 최적화 시작] ---
+
+      - name: AdSense - Add Auto Ads Code
+        run: |
+          ADSENSE_CODE='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>'
+          sed -i "s|</head>|$ADSENSE_CODE</head>|g" $GITHUB_WORKSPACE/www/index.html
+
+      - name: AdSense - Create ads.txt
+        run: echo "google.com, ca-pub-9169085414093593, DIRECT, f08c47fec0942fa0" > $GITHUB_WORKSPACE/www/ads.txt
+
+      - name: SEO - Create 404.html for History API
+        run: cp $GITHUB_WORKSPACE/www/index.html $GITHUB_WORKSPACE/www/404.html
+
+      - name: SEO - Generate Sitemap
+        run: |
+          DOMAIN="https://dev.o-m.kr"
+          echo "<?xml version='1.0' encoding='UTF-8'?>" > $GITHUB_WORKSPACE/www/sitemap.xml
+          echo "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>" >> $GITHUB_WORKSPACE/www/sitemap.xml
+          find . -maxdepth 2 -name "*.md" ! -name "logseq*" | sed "s|^\./||" | sed "s|.md$||" | while read page; do
+            echo "<url><loc>$DOMAIN/#/page/$page</loc></url>" >> $GITHUB_WORKSPACE/www/sitemap.xml
+          done
+          echo "</urlset>" >> $GITHUB_WORKSPACE/www/sitemap.xml
+
+      - name: SEO - Create robots.txt
+        run: |
+          echo "User-agent: *" > $GITHUB_WORKSPACE/www/robots.txt
+          echo "Allow: /" >> $GITHUB_WORKSPACE/www/robots.txt
+          echo "Sitemap: https://dev.o-m.kr/sitemap.xml" >> $GITHUB_WORKSPACE/www/robots.txt
+
+      # --- [SEO & AdSense 최적화 끝] ---
+
+      - name: Add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
