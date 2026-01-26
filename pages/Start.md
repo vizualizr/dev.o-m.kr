@@ -6,10 +6,10 @@
 		- together with [[antigravity]]
 - ## Thoughts
 	- {{query (and "thoughts" (not (page [[Start]])) )}}
-	  query-sort-by:: page
+	  query-sort-by:: date-modified
 	  query-table:: true
-	  query-sort-desc:: true
-	  query-properties:: [:block :page]
+	  query-sort-desc:: false
+	  query-properties:: [:page :date-modified :date-created]
 - ## Updates
   id:: 691682d3-0523-4306-8742-d3f7f284aaea
 	- query-properties:: [:page :date-modified :status]
@@ -62,3 +62,4 @@
 	  collapsed:: true
 		- Local and remote git repo are enabled.
 		- https://github.com/vizualizr/fastlab
+	- [[2026-01-24]] Revised `publish.yml`for Google SEO. See [[SEO for logseq-SPA action]]

@@ -20,18 +20,18 @@ jobs:
           theme-mode: light
           accent-color: blue
 
-      # --- [SEO & AdSense 최적화 시작] ---
+      # --- [SEO & AdSense Optimization starts] ---
 
       - name: AdSense - Inject Meta Tag & Script
         run: |
-          # 1. 소유권 확인 전용 메타 태그 (구글 로봇이 가장 먼저 찾는 값)
+          # 1. Meta Tag injection - first point where Google verifies your domain ownership
           META_TAG='<meta name="google-adsense-account" content="ca-pub-9169085414093593">'
           
-          # 2. 광고 게재용 스크립트
+          # 2. AdSense script
           ADSENSE_SCRIPT='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9169085414093593" crossorigin="anonymous"></script>'
           
-          # index.html의 </head> 태그 바로 앞에 두 코드를 모두 삽입
-          # \n을 사용하여 줄바꿈을 해줘야 소스 보기에서 깔끔하게 보입니다.
+          # Inject both codes right before the </head> tag
+          # \n to add a newline for better source code readability
           sed -i "s|</head>|$META_TAG\n$ADSENSE_SCRIPT\n</head>|g" $GITHUB_WORKSPACE/www/index.html
 
       - name: AdSense - Create ads.txt
@@ -46,9 +46,9 @@ jobs:
           echo "<?xml version='1.0' encoding='UTF-8'?>" > $GITHUB_WORKSPACE/www/sitemap.xml
           echo "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>" >> $GITHUB_WORKSPACE/www/sitemap.xml
           
-          # 파일 목록을 읽어와서 XML 특수문자를 치환합니다.
+          # Code to fix XML parse errors caused by special characters.
           find . -maxdepth 2 -name "*.md" ! -name "logseq*" | sed "s|^\./||" | sed "s|.md$||" | while read page; do
-            # URL 내의 & 기호를 &amp; 로 변환 (XML 에러 방지)
+            # Replace `&` symbol with `&amp;` in URL
             SAFE_PAGE=$(echo "$page" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&apos;/g')
             echo "<url><loc>$DOMAIN/#/page/$SAFE_PAGE</loc></url>" >> $GITHUB_WORKSPACE/www/sitemap.xml
           done
@@ -61,7 +61,7 @@ jobs:
           echo "Allow: /" >> $GITHUB_WORKSPACE/www/robots.txt
           echo "Sitemap: https://dev.o-m.kr/sitemap.xml" >> $GITHUB_WORKSPACE/www/robots.txt
 
-      # --- [SEO & AdSense 최적화 끝] ---
+      # --- [SEO & AdSense Optimization completed] ---
 
       - name: Add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll

@@ -1,5 +1,5 @@
 date-created:: [[2025-07-22]]
-date-modified::
+date-modified:: [[2026-01-24]] 
 division:: [[marketing]] 
 stack:: [[frontend]] 
 tags::
@@ -40,6 +40,8 @@ public:: true
 		  ```
 		- Claude Sonnet 4 solved the problem in 10 minutes, while Gemini, Copilot, and NotebookLM got lost halfway through the dead code.
 	- [[2025-09-03]] Local folder location has changed.
-		- confirmed the github action works fine in the new location.gi
+		- confirmed the github action works fine in the new location.
+	- [[2026-01-24]] github action revised for SEO
+		- See [[SEO for logseq-SPA action]]
 - #### References
 	-

@@ -1,0 +1,21 @@
+date-created:: [[2025-12-22]]
+date-modified:: [[2026-01-24]]
+division::
+stack::
+tags:: AI, [[thoughts]] 
+type::
+alias::
+public:: false
+
+- ## Summary
+	- > ChatGPT가 생성한 코드를 무턱대고 복사/붙여넣기하지 말고 한 줄 한 줄 살펴보며 이해해야 합니다. 잘 모르겠으면 추가 설명을 요청하세요. 그리고 의심스러운 부분은 공신력 있는 출처(예: 공식 문서)에서 다시 확인하세요. LLM은 100% 확신하는 태도로 얘기하지만 실상 100% 정확하지 않다는 점을 명심하세요.
+- ## Steps
+	-
+- ## Troubleshooting
+	- 그래 맞는 말이다. 문제는 저렇게 하는데 시간이 엄청 걸린다는 점이지. 한 가지 분명한 게 있다. 기술은 야생마와 같다는 점이다. 초원을 질주하는 말을 보며 우리는 같은 꿈을 꾼다. 저 말로 내가 원하는 곳에 훨씬 빨리 가겠노라고. 하지만 우선 말을 길들여야 한다. 말에게 무엇이 필요하고 무엇을 좋아하며 싫어하는지. 말이 무엇을 할 수 있고 무엇을 할 수 없는지. 지금이야 초원을 달리는 말이 마법과 다를 바 없지만 그 말을 타고 내가 원하는 곳에 다다르기 위해 우리는 말보다 말을 더 잘 알아야 한다.
+- ## log
+	- [[2026-01-24]] Page created.
+- ### References
+	- [프로그래밍의 종말 | 요즘IT](https://yozm.wishket.com/magazine/detail/1873/)
+	- [프론트엔드 개발의 종말 | 요즘IT](https://yozm.wishket.com/magazine/detail/2201/)
+	- {{video https://www.youtube.com/watch?v=xm7BwEsdVbQ}}

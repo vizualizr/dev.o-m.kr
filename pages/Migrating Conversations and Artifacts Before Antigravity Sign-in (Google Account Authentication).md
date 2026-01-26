@@ -6,9 +6,10 @@ tags:: google-auth, account-migration, antigravity-memory, backup-brain, trouble
 type::  
 alias::  
 public:: true  
-status:: [[ai-generated]]
+status:: [[ai-proofed]]
 
 - ## Summary
+	- 추론과 실행 사이에
 	- Antigravity IDE에서 Google 계정 변경 시 발생하는 대화 및 기억(Artifacts) 유실 문제를 분석하고, 이를 방지하기 위한 이주 전략(Backup & Restore)을 정리함. 계정 변경은 단순 로그아웃이 아닌 '환경의 단절'을 의미하므로 사전 백업이 필수적임.
 - ## Steps
 	- #+BEGIN_EXAMPLE
