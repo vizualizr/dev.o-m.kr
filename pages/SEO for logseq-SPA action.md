@@ -109,10 +109,12 @@ date-created:: [[2026-01-24]]
 		  logseq.order-list-type:: number
 	- ### Search engine registration
 	  logseq.order-list-type:: number
-		- Visit https://search.google.com/
-		- Register your root domain
-		- Submit your `sitemap.xml` from your URL.
-		  id:: 69743110-c7e6-44b4-aa1b-3f127b9643e3
+		- Google
+			- Visit https://search.google.com/
+			- Register your root domain
+			- Submit your `sitemap.xml` from your URL.
+			  id:: 69743110-c7e6-44b4-aa1b-3f127b9643e3
+		- TODO [Naver Search Advisor](https://searchadvisor.naver.com/)
 - ## Troubleshooting
 	- Issue
 		- The default SPA action for Logseq lacks code for Search Engine Optimization and Google AdSense.
