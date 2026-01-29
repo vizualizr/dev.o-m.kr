@@ -13,6 +13,8 @@
 - ## Updates
   id:: 691682d3-0523-4306-8742-d3f7f284aaea
 	- query-properties:: [:page :date-modified :status]
+	  query-sort-by:: date-modified
+	  query-sort-desc:: false
 	  #+BEGIN_QUERY
 	  {:title "10 pages recently updated as of today"
 	   :query [:find (pull ?p [*])
