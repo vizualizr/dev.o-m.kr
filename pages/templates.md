@@ -1,5 +1,5 @@
 template:: Add a new software item
-  template-including-parent:: false
+template-including-parent:: false
 
 	- item-type:: [[software]]
 	  outcome::
