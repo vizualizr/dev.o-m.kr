@@ -1,1 +1,1 @@
-- See [[ai-proofed]]
+- See #ai-proofed

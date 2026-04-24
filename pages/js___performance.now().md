@@ -1,10 +1,10 @@
 date-created:: [[2025-10-23]]
-date-modified::
+date-updated::
 division:: [[makr]]
 stack:: frontend
 tags:: Web API, performance, timing, Date.now, 개념정리
 type::
-status:: [[ai-generated]]
+ai-sourced:: #ai-generated
 
 - ## Summary
 	- `performance.now()`는 고해상도 시간 측정(High Resolution Time)을 위한 Web API 메서드이다.

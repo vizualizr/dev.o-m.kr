@@ -1,5 +1,5 @@
 date-created:: [[2025-07-22]] 
-date-modified:: [[2025-10-15]] 
+date-updated:: [[2025-10-15]] 
 stack:: [[forntend]] 
 tags:: tailwindcss, vite, d3.js
 type::

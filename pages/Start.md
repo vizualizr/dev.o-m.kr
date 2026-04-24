@@ -1,7 +1,7 @@
 ## About
 	- <a href="https://wakatime.com"><img src="https://wakatime.com/share/@2c977ef5-79a6-45cc-94ed-1ba3005f66dd/256047fa-271f-43f9-b70f-705b6972140f.png" /></a>
 	- [dev.o-m.kr](http://dev.o-m.kr) is a journal documenting the process of [[developing]] an independent data storytelling blog from scratch.
-	- ### stack
+	- stack
 		- [[astro]], [[d3.js]], [[Observable Plot]], [[tailwindcss]]
 		- together with [[antigravity]]
 - ## Thoughts
@@ -12,43 +12,30 @@
 	  query-properties:: [:page :date-modified :date-created]
 - ## Updates
   id:: 691682d3-0523-4306-8742-d3f7f284aaea
-	- query-properties:: [:page :date-modified :status]
-	  query-sort-by:: date-modified
+	- query-sort-by:: date-updated
 	  query-sort-desc:: true
+	  query-properties:: [:page :date-updated :date-created]
 	  #+BEGIN_QUERY
-	  {:title "10 pages recently updated as of today"
+	  {
 	   :query [:find (pull ?p [*])
 	           :where
-	           ;; 1. ?content에 "date-modified::" 문자열이 포함된 블록 ?b를 찾습니다.
-	           [?b :block/content ?content] ; :block/string이 아닌 :block/content를 사용해야 합니다 [1, 2].
-	           [(clojure.string/includes? ?content "date-modified::")]
-	           
-	           ;; 2. 해당 블록 ?b가 속한 페이지 ?p를 찾습니다.
-	           [?b :block/page ?p]
 	           [?p :block/name _]
-	           ]
-	   
+	           ;; 속성 데이터가 존재하는 블록(페이지의 첫 블록)을 찾음
+	           [?p :block/properties ?props]
+	           ;; date-modified 또는 date-updated 중 하나라도 속성 맵에 포함되어 있는지 확인
+	           (or-join [?props]
+	             [(get ?props :date-modified)]
+	             [(get ?props :date-updated)])]
 	   :result-transform (fn [result]
-	                       (let [
-	                             ;; 페이지에서 날짜 속성 문자열(예: "[[2025-11-13]]")을 추출하는 헬퍼 함수
-	                             get-date-string (fn [page]
-	                                               ;; 블록 데이터 분석 결과 (대화 기록 참조), 속성 값은 
-	                                               ;; :block/properties-text-values 맵에 저장되어 있습니다. [3]
-	                                               (let [raw-prop-map (get-in page [:block/properties-text-values])
-	                                                     raw-date (get raw-prop-map :date-modified)]
-	                                                 (if raw-date
-	                                                   raw-date ; [[YYYY-MM-DD]]를 포함한 원본 문자열 그대로 반환
-	                                                   "")))]
-	                             
-	                         ;; 1. 날짜 문자열을 기준으로 오름차순 정렬
+	                       (let [get-date (fn [page]
+	                                        (let [props (get page :block/properties)
+	                                              d-mod (get props :date-modified)
+	                                              d-upd (get props :date-updated)]
+	                                          (str (or d-mod d-upd ""))))]
 	                         (->> result
-	                              (sort-by get-date-string) ; :result-transform은 Clojure 함수를 사용하여 정렬합니다 [4, 5].
-	                              ;; 2. 내림차순(최신순)으로 뒤집기
+	                              (sort-by get-date)
 	                              reverse
-	                              ;; 3. 상위 10개 결과만 선택
-	                              (take 10))
-	                         )
-	   )
+	                              (take 10))))
 	   :collapsed? false
 	  }
 	  #+END_QUERY
@@ -65,3 +52,6 @@
 		- Local and remote git repo are enabled.
 		- https://github.com/vizualizr/fastlab
 	- [[2026-01-24]] Revised `publish.yml`for Google SEO. See [[SEO for logseq-SPA action]]
+	- [[2026-02-24]] `Plans` section added.
+	- #2026-04-21 Advanced Query in ((691682d3-0523-4306-8742-d3f7f284aaea)) has been updated.
+		- To filter the latest article based the user-defined page property, not the native property. now it filters `date-modified` and `date-updated`

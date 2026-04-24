@@ -1,5 +1,5 @@
 date-created:: [[2025-08-05]]
-date-modified:: [[2025-08-16]] 
+date-updated:: [[2025-08-16]] 
 division::
 stack::
 tags:: css, halftone

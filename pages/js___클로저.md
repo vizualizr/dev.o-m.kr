@@ -1,9 +1,9 @@
 date-created:: [[2025-10-17]]
-date-modified:: [[2025-10-20]] 
+date-updated:: [[2025-10-20]] 
 division:: [[makr]]
 stack:: frontend
 tags:: 클로저, 함수, 스코프, class, 개념정리
-status:: [[ai-proofed]] 
+ai-sourced:: #ai-proofed 
 type::
 alias:: js/closure
 

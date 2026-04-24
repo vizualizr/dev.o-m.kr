@@ -1,5 +1,5 @@
 date-created:: [[2026-01-06]]
-date-modified:: [[2026-01-09]] 
+date-updated:: [[2026-01-09]] 
 division::
 stack::
 tags::
@@ -13,7 +13,7 @@ public:: false
 	- ### considerations
 		- #### Key concepts
 			- dot:
-id:: 6965e336-ea5d-4567-bfdc-b63d8afc24aa
+			  id:: 6965e336-ea5d-4567-bfdc-b63d8afc24aa
 				- Everything that exist alone together
 			- line:
 				- The place where dots and line plays on.

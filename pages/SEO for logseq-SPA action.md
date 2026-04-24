@@ -1,11 +1,11 @@
 date-created:: [[2026-01-24]]
-  date-modified:: [[2026-01-24]]
+  date-updated:: [[2026-01-24]]
   division::
   stack::
   tags:: SEO, logseq-SPA
   type::
   alias::
-  status:: [[ai-proofed]]
+  ai-sourced:: #ai-proofed
   public:: true
 
 - ## Summary

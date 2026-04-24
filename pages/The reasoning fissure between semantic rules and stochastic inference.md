@@ -1,11 +1,11 @@
 date-created:: [[2026-01-24]]
-date-modified:: [[2026-01-24]]
+date-updated:: [[2026-01-24]]
 division::
 stack::
 tags:: LLM, [[thoughts]], AI ROI
 type::
 alias:: 규칙과 실행 사이의 추론 간극
-status:: [[ai-proofed]] [[DOING]]
+ai-sourced:: ai-generated
 public:: true
 title:: The reasoning fissure between semantic rules and stochastic inference
 

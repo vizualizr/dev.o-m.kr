@@ -1,0 +1,45 @@
+/* 해당 그래프의 custom.css 상단에 복사 */
+
+:root {
+  --ls-primary-background-color: #ffffff !important;
+  --ls-secondary-background-color: #f7f7f7 !important;
+  --ls-tertiary-background-color: #eeeeee !important;
+  --ls-quaternary-background-color: #e5e5e5 !important;
+}
+
+/* 라이트 모드 강제 고정 */
+html[data-theme='dark'] {
+  filter: invert(0) !important; /* 혹시 다크모드일 경우 반전 방지 */
+}
+
+.block-content-inner,
+.editor-wrapper {
+  word-break: keep-all !important;
+  font-family: "IBM Plex Sans KR";
+  line-height: 1.9rem;
+}
+
+.CodeMirror {
+  font-family:"D2Coding" !important;
+  /* font-family: "Monoplex KR" !important; */
+}
+
+.will-stick > .flex-row {
+  background: none;
+  background-image: none;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-color: none;
+  backdrop-filter: blur(50px);
+}
+
+.query-table > .whitespace-nowrap {
+  background-color: rgba(var(--ls-primary-background-color), 0.1);
+}

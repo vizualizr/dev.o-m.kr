@@ -1,11 +1,11 @@
 date-created:: [[2025-07-31]]
-date-modified:: [[2025-08-05]] 
+date-updated:: [[2025-08-05]] 
 division:: [[frontend]] 
 stack::
 tags:: css
 type::
 public:: true
-status:: [[ai-proofed]]
+ai-sourced:: #ai-proofed
 
 - ## Summary
 	- ```css

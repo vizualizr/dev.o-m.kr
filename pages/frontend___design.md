@@ -1,5 +1,5 @@
 date-created:: [[2025-12-27]]
-date-modified:: [[2025-12-27]]
+date-updated:: [[2025-12-27]]
 division::
 stack:: frontend
 tags:: Google stitch

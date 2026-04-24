@@ -1,6 +1,6 @@
 public:: true
 date-created:: [[2025-07-23]]
-date-modified:: [[2025-07-25]]
+date-updated:: [[2025-07-25]]
 division::
 stack::
 tags:: logseq

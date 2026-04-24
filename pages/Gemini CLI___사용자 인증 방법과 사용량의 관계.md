@@ -1,9 +1,9 @@
 item-type:: [[software]]
 outcome:: gemini-cli 및 Antigravity 환경 변수 설정 및 쿼터 문제 해결 방안 정리
-date-of-installation:: 
-date-of-update:: [[2026-01-03]]
+date-installed:: 
+date-updated:: [[2026-01-03]]
 alias:: gemini-cli-auth-guide
-status:: [[ai-generated]]
+ai-sourced:: #ai-generated
 
 - ## Introduction
 	- gemini-cli 사용을 위한 윈도우 환경 변수 설정 및 인증 방식 파악.

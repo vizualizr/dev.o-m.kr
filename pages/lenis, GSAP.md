@@ -1,9 +1,9 @@
 item-type:: [[software]]
 outcome::
 host::
-status:: [[ai-proofed]] 
-date-of-installation::
-date-of-update::
+ai-sourced:: #ai-proofed 
+date-installed::
+date-updated::
 
 - ## Introduction
 	- 스크롤을 입력 받아 상호작용을 구성하기 위한 기반 지식을 정리한다.

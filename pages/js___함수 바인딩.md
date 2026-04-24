@@ -1,5 +1,5 @@
 date-created:: [[2025-10-17]]
-date-modified::
+date-updated::
 division:: [[makr]]
 stack:: frontend
 tags:: this, explicit binding, call, apply, bind, 프로그래밍, 개념정리

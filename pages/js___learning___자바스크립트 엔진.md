@@ -1,10 +1,10 @@
 date-created:: [[2025-10-24]]
-date-modified::
+date-updated::
 division:: [[makr]]
 stack:: frontend
 tags:: v8, performance, jit, devtools
 type::
-status:: [[ai-generated]]
+ai-sourced:: #ai-generated
 
 - ## Summary
 	- 프론트엔드 개발자는 자바스크립트 엔진의 구성 요소와 작동 순서를 이해하면 성능 최적화, 디버깅, 프레임워크 내부 동작 해석, 메모리 관리에서 유리하다.

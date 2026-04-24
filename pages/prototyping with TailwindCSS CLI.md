@@ -1,5 +1,5 @@
 date-created:: [[2025-08-05]]
-date-modified:: [[2025-11-06]] 
+date-updated:: [[2025-11-06]] 
 division::
 stack:: [[frontend]] 
 tags:: css, tailwindcss

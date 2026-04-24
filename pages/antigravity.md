@@ -1,5 +1,5 @@
 date-created:: [[2025-11-19]]
-date-modified:: [[2025-11-21]]
+date-updated:: [[2025-11-21]]
 division::
 stack::
 tags:: IDE
@@ -75,5 +75,25 @@ public:: true
 		- [[Migrating Conversations and Artifacts Before Antigravity Sign-in (Google Account Authentication)]]
 - ## log
 	- [[2025-11-19]] Page created.
+	- [[2026-02-25]] Antigravity chats are disabled as the editor is not the latest version. But the UI has no update button.
+		- 18:11fixed by terminal with admin privilege, sourced from [reddit](https://www.reddit.com/r/google_antigravity/comments/1r99i1y/how_i_upgrade_to_the_latest_version/)
+			- ```powershell
+			  Windows PowerShell
+			  Copyright (C) Microsoft Corporation. All rights reserved.
+			  
+			  Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+			  
+			  PS C:\Users\onlin> winget install --id Google.Antigravity -e --source winget
+			  Found an existing package already installed. Trying to upgrade the installed package...
+			  Found Antigravity [Google.Antigravity] Version 1.18.4
+			  This application is licensed to you by its owner.
+			  Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+			  Downloading https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/1.18.4-5780041996042240/windows-x64/Antigravity.exe
+			    ██████████████████████████████   166 MB /  166 MB
+			  Successfully verified installer hash
+			  Starting package install...
+			  Successfully installed
+			  ```
+			-
 - ### References
 	- [Code search results · GitHub](https://github.com/search?q=path%3AAGENTS.md&type=code)

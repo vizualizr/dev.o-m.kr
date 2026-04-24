@@ -1,7 +1,7 @@
-status:: [[ai-proofed]]
+ai-sourced:: #ai-proofed
 alias:: LLM 기반 프로그래밍 에이전트를 사용하는 방법
 date-created:: [[2025-11-19]]
-date-modified::  [[2025-11-21]]
+date-updated::  [[2025-11-21]]
 
 - ## Summary
 	- Make problems into a smallest piece as possible.

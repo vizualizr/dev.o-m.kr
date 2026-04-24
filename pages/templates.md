@@ -1,12 +1,37 @@
-template:: Add a new software item
+template:: A. page
 template-including-parent:: false
 
-	- item-type:: [[software]]
+	- id:: 6982a861-db84-4e60-aeaa-d58396e42ae9
+	  date-created:: <% today %>
+	  date-updated::
+	  alias::
+	  tags::
+	  ai-sourced:: 
+	  division::
+	  stack::
+	  type::
+	  public:: true
+	- ## Summary
+		-
+	- ## Steps
+		-
+	- ## Troubleshooting
+		-
+	- ## log
+		- <% today %> Page created.
+	- ### References
+		-
+- template:: B. software
+  template-including-parent:: false
+	- date-installed::
+	  date-updated::
+	  item-type:: #software
+	  alias::
+	  tags::
+	  ai-sourced:: 
+	  lifecycle::
 	  outcome::
 	  host::
-	  status::
-	  date-of-installation::
-	  date-of-update::
 	- ## Introduction
 		-
 	- ## Steps
@@ -17,39 +42,4 @@ template-including-parent:: false
 		- <% today %> Page created.
 	- ### References
 		-
-- template:: Add a new new page
-  template-including-parent:: false
-	- date-created:: <% today %>
-	  date-modified::
-	  division::
-	  stack::
-	  tags::
-	  type::
-	- ## Summary
-		-
-	- ## Steps
-		-
-	- ## Troubleshooting
-		-
-	- ## log
-		- <% today %> Page created.
-	- ### References
-- template:: Add a new recipe
-  template-including-parent:: false
-	- date-created:: <% today %>
-	  date-modified::
-	- ## Summary
-		-
-	- ## Steps
-		- ### 재료 준비
-			-
-		- ### 조리 순서
-			-
-		- ### 술
-			-
-	- ## Troubleshooting
-		-
-	- ## log
-		- <% today %> Page created.
-	- ### References
-		-
+-

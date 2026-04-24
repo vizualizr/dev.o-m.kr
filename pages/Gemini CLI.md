@@ -1,5 +1,5 @@
 date-created:: [[2025-08-01]]
-date-modified::
+date-updated::
 division:: 
 stack::
 tags:: gemini, 제미나이, 잼민이

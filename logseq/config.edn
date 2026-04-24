@@ -1,5 +1,4 @@
 {:meta/version 1
-
  ;; Set the preferred format.
  ;; Available options:
  ;; - Markdown (default)
@@ -299,7 +298,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["DOING" "TODO" "js/자바스크립 엔진 동작 개요" "d3.js"]
+ :favorites ["doing" "todo" "d3.js" "js/자바스크립 엔진 동작 개요"]
 
  ;; Set flashcards interval.
  ;; Expected value:

@@ -1,5 +1,5 @@
 date-created:: [[2025-08-05]]
-date-modified::
+date-updated::
 division:: 
 stack::
 tags:: article, citation, rehype

@@ -1,11 +1,11 @@
 date-created:: [[2025-11-10]]
-date-modified::
+date-updated::
 division:: [[makr]]
 stack:: frontend
 tags:: #svg #viewbox #scaling #responsive
 type::
 alias:: viewBox
-status:: [[ai-proofed]]
+ai-sourced:: #ai-proofed
 
 - ## Summary
 	- viewBox는 해당 요소의 내부 좌표계의 기준점과 크기를 정의한다.

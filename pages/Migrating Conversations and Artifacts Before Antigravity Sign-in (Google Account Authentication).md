@@ -1,12 +1,12 @@
 date-created:: [[2026-01-23]]  
-date-modified:: [[2026-01-23]]  
+date-updated:: [[2026-01-23]]  
 division:: [[makr]]  
 stack:: frontend  
 tags:: google-auth, account-migration, antigravity-memory, backup-brain, troubleshooting  
 type::  
 alias::  
 public:: true  
-status:: [[ai-proofed]]
+ai-sourced:: #ai-proofed
 
 - ## Summary
 	- 추론과 실행 사이에

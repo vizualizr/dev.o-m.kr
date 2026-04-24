@@ -4,7 +4,7 @@ division:: makr
 stack:: JavaScript
 tags:: this
 type::
-status:: [[ai-generated]]
+status:: #ai-generated
 
 - ## Summary
 	- JavaScript의 `this` 키워드는 함수가 **정의**될 때가 아닌 **호출**될 때, 즉 **런타임(Runtime)**에 동적으로 결정된다.

@@ -1,10 +1,10 @@
 date-created:: [[2025-10-30]]
-date-modified::
+date-updated::
 division:: [[makr]]
 stack:: [[frontend]]
 tags:: [[deployment]], [[cloudflare]]
 type::
-status:: [[ai-generated]]
+ai-sourced:: #ai-generated
 
 - ## Summary
 	- Defines the deployment architecture for an Astro static site, utilizing Vercel for hosting and placing Cloudflare at the forefront to maximize security and global CDN performance.

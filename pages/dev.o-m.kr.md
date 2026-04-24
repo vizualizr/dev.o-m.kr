@@ -1,17 +1,19 @@
 date-created:: [[2025-07-22]]
-date-modified:: [[2026-01-24]] 
+date-updated:: [[2026-01-24]] 
 division:: [[marketing]] 
 stack:: [[frontend]] 
 tags::
 type::
+alias::
 public:: true
 
-- ### Introduction
+- ## Summary
+	- local site
+- ## Steps
 	-
-- #### References
--
-- ### log
-  id:: 6889b033-6701-406e-9815-9eae8a9c3f8f
+- ## Troubleshooting
+	-
+- ## log
 	- [[2025-07-22]] Research to publish this notes using github.
 	  collapsed:: true
 		- {{renderer :linkpreview,https://github.com/logseq/publish-spa?tab=readme-ov-file}}
@@ -43,5 +45,4 @@ public:: true
 		- confirmed the github action works fine in the new location.
 	- [[2026-01-24]] github action revised for SEO
 		- See [[SEO for logseq-SPA action]]
-- #### References
-	-
+- ### References
