@@ -1,3 +1,6 @@
+@import url("https://raw.githack.com/stdword/logseq-bujo-theme/main/src/base.css");
+@import url("https://raw.githack.com/stdword/logseq-bujo-theme/main/src/light-white.css");
+
 .block-content-inner,
 .editor-wrapper {
   word-break: keep-all !important;
