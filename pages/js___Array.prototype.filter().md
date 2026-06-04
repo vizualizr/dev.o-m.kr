@@ -1,0 +1,52 @@
+- 주어진 배열에서 원하는 조건에 부합, 즉 조건식 callbackFn의 결괏값으로 참(`true`, `1`)을 반환하는 새로운 배열을 얻고자 할 때 사용한다.
+	- ```js
+	  filter(callbackFn)
+	  filter(callbackFn, thisArg)
+	  ```
+	- 배열 A에 있는 원소에서 원하는 값만 선별한 새로운 배열을 얻기 위해 사용한다. `callbackFn`은 판별식이며 해당 함수의 결과가 참이면 해당하는 인자를 새로운 배열의 원소로 추가한다.
+	- 원본 배열 A에 있는 원소들 가운데 주어진 조건에 부합하는 원소들만 따로 모은 배열 A'를 반환한다. 이 때  A'는 원본 배열과 다른 참조 주소를 가지지만 A'에 속하는 원소들, 즉 $\{ a_1, a_2, \dots, a_N \}$이 참조하는 주소는 원본과 동일하다.
+	- 따라서 배열 A' 안에 있는 원소의 구조를 변경해도 원본 배열에는 영향이 없지만 만약 A'에 있는 원소의 값을 변경하면 원본 배열 A에 있는 원소의 값을 변경하는 것과 동일하다.
+	- 이를 Shallow copy(얕은 사본)이라 한다. 위의 설명처럼 얕은 사본인 배열은 구조는 독립적이나 원소는 의존적이다.
+- `filter(callbackFn)`의 예시는 아래와 같다.
+	- ```js
+	  let users = [
+	    {id: 1, name: "John"},
+	    {id: 2, name: "Pete"},
+	    {id: 3, name: "Mary"}
+	  ];
+	  // returns array of the first two users
+	  let someUsers = users.filter(item => item.id < 3);
+	  
+	  alert(someUsers.length); // 2
+	  
+	  // 다음을 참고해도 좋다.
+	  
+	  const words = ["spray", "elite", "exuberant", "destruction", "present"];
+	  const result = words.filter((word) => word.length > 6);
+	  console.log(result);
+	  // Expected output: Array ["exuberant", "destruction", "present"]
+	  ```
+- `filter(callbackFn, thisArg)`의 예시는 아래와 같다. `callbackFn`에서 `this`가 쓰일 경우 해당 `this`가 참조하는 객체를 지정할 수 있다.
+	- ```js
+	  const const data = [
+	    { day: "Mon", rain: 0.1 },
+	    { day: "Tue", rain: 0.8 },
+	    { day: "Wed", rain: 0.3 }
+	  ];
+	  
+	  // 기준치를 가진 객체
+	  const limitSetting = {
+	    threshold: 0.5,
+	    isHeavy: function(rain) {
+	      return rain > this.threshold;
+	    }
+	  };
+	  
+	  // filter의 두 번째 인자로 limitSetting을 전달함 (thisArg)
+	  const heavyRainDays = data.filter(function(d) 
+	    // 여기서 this는 limitSetting 객체를 가리키게 됨
+	    return this.isHeavy(d.rain);
+	  }, limitSetting);
+	  
+	  console.log(heavyRainDays); // [{ day: "Tue", rain: 0.8 }]
+	  ```

@@ -1,6 +1,18 @@
+date-created:: [[2025-10-16]]
+date-updated:: [[2026-05-15]]
 alias:: js/arrow function, js/화살표함수
+tags::
+ai-sourced:: 
+division::
+stack::
+type::
+public:: true
 
-- ## Introduction
+- ## Summary
+	- #+BEGIN_IMPORTANT
+	  $$\text{Input} \Rightarrow \text{Output}$$
+	  #+END_IMPORTANT
+- ## Steps
 	- A delaration of a function with bravity.
 	- ```javascript
 	  let func = (arg1, arg2, ...argN) => expression
@@ -38,8 +50,10 @@ alias:: js/arrow function, js/화살표함수
 		  alert( sum(1, 2) ); // 3
 		  ```
 		- 중괄호를 쓴 표현식은 반드시 ==`return`으로 반환값을 명시==해야 한다.
+- ## Troubleshooting
+	-
 - ### Reference
 	- https://ko.javascript.info/arrow-functions-basics
 	- https://javascript.info/arrow-functions-basics
-- ### Log
+- ## log
 	- [[2025-10-16]] created.

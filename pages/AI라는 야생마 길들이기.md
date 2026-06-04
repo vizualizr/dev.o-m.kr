@@ -1,11 +1,11 @@
-date-created:: [[2025-12-22]]
-date-updated:: [[2026-01-24]]
-division::
-stack::
-tags:: AI, [[thoughts]] 
-type::
-alias::
-public:: false
+	date-created:: [[2025-12-22]]
+	date-updated:: [[2026-01-24]]
+	division::
+	stack::
+	tags:: AI, [[thoughts]] 
+	type::
+	alias::
+	public:: false
 
 - ## Summary
 	- > ChatGPT가 생성한 코드를 무턱대고 복사/붙여넣기하지 말고 한 줄 한 줄 살펴보며 이해해야 합니다. 잘 모르겠으면 추가 설명을 요청하세요. 그리고 의심스러운 부분은 공신력 있는 출처(예: 공식 문서)에서 다시 확인하세요. LLM은 100% 확신하는 태도로 얘기하지만 실상 100% 정확하지 않다는 점을 명심하세요.

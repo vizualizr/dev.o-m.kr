@@ -3,7 +3,7 @@ template-including-parent:: false
 
 	- id:: 6982a861-db84-4e60-aeaa-d58396e42ae9
 	  date-created:: <% today %>
-	  date-updated::
+	  date-updated:: <% today %>
 	  alias::
 	  tags::
 	  ai-sourced:: 
@@ -24,7 +24,7 @@ template-including-parent:: false
 - template:: B. software
   template-including-parent:: false
 	- date-installed::
-	  date-updated::
+	  date-updated:: <% today %>
 	  item-type:: #software
 	  alias::
 	  tags::

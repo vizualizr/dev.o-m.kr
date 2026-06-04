@@ -1,6 +1,7 @@
 ## Records
-	- {{query (and [[js/learning/모던 javaScript 튜토리얼/코어 자바스크립트]] "#once")}}
-	  query-properties:: [:block]
+	- ### 확인한 내용들
+		- {{query (and [[js/learning/모던 javaScript 튜토리얼/코어 자바스크립트]] "#once")}}
+		  query-properties:: [:block]
 - ## Contents
 	- ### [소개](https://ko.javascript.info/getting-started)
 	  logseq.order-list-type:: number
@@ -78,7 +79,6 @@
 		  [가비지 컬렉션](https://ko.javascript.info/garbage-collection)
 		- [[js/메서드와 this]] #2025-10-16 #once
 		  logseq.order-list-type:: number
-		  collapsed:: true
 			- logseq.order-list-type:: number
 			  [메서드와 this](https://ko.javascript.info/object-methods)
 		- logseq.order-list-type:: number
@@ -99,17 +99,19 @@
 		  [문자열](https://ko.javascript.info/string)
 		- [배열](https://ko.javascript.info/array)
 		  logseq.order-list-type:: number
-		- [[js/배열과 메서드]] #2025-07-30 ^^#once^^ #done
+		- [[js/배열과 메서드]] #2025-07-30 #once #done #twice
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [iterable 객체](https://ko.javascript.info/iterable)
-		- logseq.order-list-type:: number
-		  [맵과 셋](https://ko.javascript.info/map-set)
+		- [[js/맵과 셋]] #2026-05-24 #once
+		  logseq.order-list-type:: number
+			- logseq.order-list-type:: number
+			  [맵과 셋](https://ko.javascript.info/map-set)
 		- logseq.order-list-type:: number
 		  [위크맵과 위크셋](https://ko.javascript.info/weakmap-weakset)
 		- logseq.order-list-type:: number
 		  [Object.keys, values, entries](https://ko.javascript.info/keys-values-entries)
-		- [[js/구조 분해 할당]] #2025-02-07 #DONE ^^#once^^
+		- [[js/구조 분해 할당]] #2025-02-07 #DONE #once
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 		  [Date 객체와 날짜](https://ko.javascript.info/date)

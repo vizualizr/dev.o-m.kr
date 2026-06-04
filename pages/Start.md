@@ -54,4 +54,5 @@
 	- [[2026-01-24]] Revised `publish.yml`for Google SEO. See [[SEO for logseq-SPA action]]
 	- [[2026-02-24]] `Plans` section added.
 	- #2026-04-21 Advanced Query in ((691682d3-0523-4306-8742-d3f7f284aaea)) has been updated.
+	  collapsed:: true
 		- To filter the latest article based the user-defined page property, not the native property. now it filters `date-modified` and `date-updated`

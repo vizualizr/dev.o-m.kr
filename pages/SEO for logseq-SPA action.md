@@ -1,12 +1,12 @@
 date-created:: [[2026-01-24]]
-  date-updated:: [[2026-01-24]]
+  date-updated:: [[2026-05-05]] 
   division::
   stack::
-  tags:: SEO, logseq-SPA
+  tags:: SEO, logseq-SPA, logseq, Search Engine Optimization, 검색 엔진 최적화
   type::
   alias::
   ai-sourced:: #ai-proofed
-  public:: true
+  public:: false
 
 - ## Summary
 - ## Steps
@@ -116,17 +116,41 @@ date-created:: [[2026-01-24]]
 			  id:: 69743110-c7e6-44b4-aa1b-3f127b9643e3
 		- TODO [Naver Search Advisor](https://searchadvisor.naver.com/)
 - ## Troubleshooting
-	- Issue
-		- The default SPA action for Logseq lacks code for Search Engine Optimization and Google AdSense.
-	- Solution
-		- Inject the code into the Logseq SPA to make it ready for SEO and Google AdSense in `publish.yml`.
-	- Benefit
-		- [[dev.o-m.kr]] is Google Search Engine Ready with [`sitemap.xml`](https://dev.o-m.kr/sitemap.xml), [`robots.txt`](https://dev.o-m.kr/robots.txt), and [`ads.txt`](https://dev.o-m.kr/ads.txt).
-		- A simple revision of the `publish.yml` file minimizes management overhead for processes such as GitHub Actions or the incumbent workflow on local Logseq.
+	- ### logseq-SPA is not google or AI ready. on [[2026-05-05]]
+		- As of [[2026-05-05]], the official logseq-SPA is only partially ready for the google crawler. Crawlers do not render the whole page. It minimized the portion of page to crawl rendering the key part of static HTML page and a limited part of JavaScript code. During this process a crawler skips some part of your page including hydrated content page. Logseq SPA is one of them as it relies client-side rendering.
+			- | Strategy | Best for | Indexing speed | Build complexity |
+			  | ---- | ---- | ---- |
+			  | SSR (server-side render per request) | Personalized pages, frequently changing content, auth-aware marketing | Fast. HTML on first byte | Medium. Needs a Node/edge runtime |
+			  | SSG (static site generation) | Blog posts, docs, landing pages, anything that doesn't change hourly | Fastest. Flat HTML | Low. Builds once, serves forever |
+			  | ISR (incremental static regeneration) | Large content sites where a full rebuild takes ages | Fast. Stale-while-revalidate | Medium. Next.js / ==Astro== native, bolt-on elsewhere |
+			  | ==CSR (client-side render)== | Dashboards, apps behind login, interactive tools | Slow, unreliable for crawl | Lowest. Default React/Vue output |
+			- Read [Rendering decision table: SSR, SSG, ISR, CSR](https://seojuice.com/blog/seo-best-practices-single-page-applications-spa/) for more.
+			- > The practical implication: if you want to be cited by AI search, server-rendering isn't optional for the content pages anymore. Not for ranking — for citation. An SPA that relies on client hydration loses the entire AI search channel. That's a new cost that didn't exist two years ago and it's why the mixed-architecture approach is winning.
+		- The solutions are
+			- move to 100% SSG with any of solutions below. Neither of them keeps logseq's native UI.
+			  logseq.order-list-type:: number
+				- Quartz
+				  logseq.order-list-type:: number
+				- [Logseq-Schrodinger](https://github.com/sawhney17/logseq-schrodinger) with [logseq-hugo-template](https://github.com/charliie-dev/Logseq-Hugo-Template) or with another theme, [hugo polyrythimic theme](https://github.com/wonyoung-jang/hugo-PolyRhythmic)
+				  logseq.order-list-type:: number
+		- References
+			- [GitHub - charliie-dev/Logseq-Hugo-Template: This is a HUGO website template for Logseq users who wants their published posts to look more like a personal website, using GitHub Pages to host the website and logseq-schrodinger to export your Logseq pages. · GitHub](https://github.com/charliie-dev/Logseq-Hugo-Template)
+			- A screenshot of [Google Search Console URL inspection page](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Ao-m.kr&id=_WRzDfX2IMvtGloygfdjcg).
+			  collapsed:: true
+				- ![image.png](../assets/image_1777951710358_0.png)
+	- ### Inject the code into the Logseq SPA for SEO
+		- Issue
+			- The default SPA action for Logseq lacks code for Search Engine Optimization and Google AdSense.
+		- Solution
+			- Inject the code into the Logseq SPA to make it ready for SEO and Google AdSense in `publish.yml`.
+		- Benefit
+			- [[dev.o-m.kr]] is Google Search Engine Ready with [`sitemap.xml`](https://dev.o-m.kr/sitemap.xml), [`robots.txt`](https://dev.o-m.kr/robots.txt), and [`ads.txt`](https://dev.o-m.kr/ads.txt).
+			- A simple revision of the `publish.yml` file minimizes management overhead for processes such as GitHub Actions or the incumbent workflow on local Logseq.
 	- TODO SEO improvement
 		- `sitemap.xml`
 			- Must add `<lastmod>`, consider `<changefreq>`, `<priority>`.
 - ## log
 	- [[2026-01-24]] Page created.
+	- [[2026-05-05]] Verified that the current SPA is not 100% compatible with Google Search Engine. Currently looking for alternatives, such as [[Quartz]] , astroplugin-logseq, or [Logseq-Schrodinger](https://github.com/sawhney17/logseq-schrodinger). See the 1st items in the troubleshooting section
 - ### References
 	-
