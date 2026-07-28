@@ -42,4 +42,18 @@ template-including-parent:: false
 		- <% today %> Page created.
 	- ### References
 		-
--
+- template:: 2. literature memo
+  template-including-parent:: false
+	- date-created:: <%today%>
+	  date-updated::
+	  type:: #literature-memo
+	  alias::
+	  tags::
+	- #reference {Better BibTex citation quick copy}
+	- #comment
+		-
+	- #excerpt
+		- {Better BibTex citation quick copy} {note}
+			- {excerpt}
+	- log
+		- <%today%> memo created.
