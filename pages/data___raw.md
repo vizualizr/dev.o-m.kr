@@ -19,6 +19,8 @@ public:: true
 - ### References
 	- [[data/API]]
 - ### dataset
+	- 분쟁 지역 데이터
+		- [[ACLED]]
 	- [Data.world](https://data.world/)
 		- 커뮤니티 중심의 데이터셋 공유 플랫폼. 다양한 분야에서 사용자들이 직접 데이터를 업로드하고 협업함.
 	- [Kaggle](https://www.kaggle.com/)

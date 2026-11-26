@@ -1,3 +1,11 @@
+template:: obsidinized
+template-including-parent:: false
+
+	- #+BEGIN_WARNING
+	  The content has moved to a new obsidian vault, and tagged as #obsidianized 
+	  Check [the vault](obsidian://open?vault=content-obsidian&file=Start) for the latest changes.
+	  Or visit [studio.o-m.kr](https://studio.o-m.kr)
+	  #+END_WARNING
 template:: A. page
 template-including-parent:: false
 
@@ -23,6 +31,7 @@ template-including-parent:: false
 		-
 - template:: B. software
   template-including-parent:: false
+  collapsed:: true
 	- date-installed::
 	  date-updated:: <% today %>
 	  item-type:: #software
@@ -44,6 +53,7 @@ template-including-parent:: false
 		-
 - template:: 2. literature memo
   template-including-parent:: false
+  collapsed:: true
 	- date-created:: <%today%>
 	  date-updated::
 	  type:: #literature-memo

@@ -2,7 +2,7 @@ date-installed:: [[2026-05-30]]
 date-updated:: [[2026-05-30]]
 item-type:: #software
 alias::
-tags::
+tags:: [[obsidianized]]
 ai-sourced:: 
 lifecycle:: pooled
 outcome::
@@ -23,9 +23,10 @@ host::
 			- 빌드 완료하면 git이 자동으로 git commit한 뒤 깃허브로 push
 			- 깃허브에서 GitHub Actions가 빌드 후 github page로 배포
 - ## Troubleshooting
-	- DOING [[2026-05-30]] Installation testing on Big Sur
+	- CANCELED [[2026-05-30]] Installation testing on Big Sur
 	  :LOGBOOK:
 	  CLOCK: [2026-05-30 Sat 12:19:54]
+	  CLOCK: [2026-08-17 Mon 19:49:19]
 	  :END:
 		- 설치
 		  logseq.order-list-type:: number

@@ -1,7 +1,7 @@
 date-created:: [[2026-07-03]]
-date-updated:: [[2026-07-11]] 
-alias:: o-m.kr/stacks
-tags::
+date-updated:: [[2026-07-28]] 
+alias:: o-m.kr/stacks, o-m.kr 스택, o-m.kr stack
+tags:: #obsidianized 
 ai-sourced:: 
 division::
 stack::
@@ -21,6 +21,22 @@ public:: true
 			- [[DaisyUI]] for [[UI component]] / tailwind dependent
 			- [[lucide icons]] for icons / framework independent
 	- updated on [[2026-07-11]]
+	- Testing environment
+		- [[o-m.kr/test environment/design system]]에서 모든 시각적 요소를 검증
+		- logic test
+		  logseq.order-list-type:: number
+			- Vite + TypeScript / Zod / Svelte (선택)
+			  logseq.order-list-type:: number
+			- 사용자 입력 폼 검증 (Zod)
+			  logseq.order-list-type:: number
+			- 복잡한 반응형 상태(State) 및 이벤트를 다룰 때
+			  logseq.order-list-type:: number
+			- Svelte의 Stores나 Runes($state)를 활용한 로직 격리 검증
+			  logseq.order-list-type:: number
+		- production 통합 및 배포
+		  logseq.order-list-type:: number
+			- Astro + Svelte 컴포넌트 (또는 SvelteKit)
+			- UI와 로직을 완벽히 결합하여 정적 웹사이트로 배포
 - ## Troubleshooting
 	- #2026-07-03 [[FlyonUI]]에서 [[DaisyUI]]로 변경함.
 		- 나중에 GSAP가 자바스크립트 애니메이션을 제어할 때 flyonUI의 애니메이션을 제어하는 JS가 DOM을 제어하는 과정에서 GSAP와 충돌할 수 있다. DaisyUI에는 JS가 전혀 없다. DOM 제어 충돌과 같은 문제를 걱정할 필요가 없다.

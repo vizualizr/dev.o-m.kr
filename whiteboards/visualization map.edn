@@ -1,0 +1,140 @@
+{:blocks (
+{:block/content "[Radial hierarchical bar chart with grouping arcs](https://observablehq.com/d/33703039e1484511)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/uuid #uuid "6a7b1cdd-384a-4d44-b809-e2bdb9a0c93a"} 
+{:block/content "[No quiet at home: The reality of living with Singapore’s traffic noise | The Straits Times](https://www.straitstimes.com/multimedia/graphics/2025/12/singapore-traffic-noise/)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1cdd-384a-4d44-b809-e2bdb9a0c93a"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/uuid #uuid "6a7b1cef-d6a6-4d7a-855e-6684980f6e3a"} 
+{:block/content "{{renderer :linkpreview,https://www.straitstimes.com/multimedia/graphics/2025/12/singapore-traffic-noise/}}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1cef-d6a6-4d7a-855e-6684980f6e3a"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/uuid #uuid "6a7b1cfe-1ecf-4d65-928d-ef1edf1e21ab"} 
+{:block/content "![image.png](../assets/image_1786453306205_0.png)\n\n[Radial hierarchical bar chart with grouping arcs](https://observablehq.com/d/33703039e1484511)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1cfe-1ecf-4d65-928d-ef1edf1e21ab"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1d39-4325-4e67-a992-6c08b7a97e0f"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1d39-4325-4e67-a992-6c08b7a97e0f"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1da3-cd74-4117-a00f-00cd061ad23e"} 
+{:block/collapsed? false
+:block/content "![image.png](../assets/image_1786435262742_0.png)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1da3-cd74-4117-a00f-00cd061ad23e"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1df0-bff2-41e9-9b09-13c1bac89f5a"} 
+{:block/content "[The Whiplash War](https://www.nytimes.com/interactive/2026/07/29/world/middleeast/iran-war-cease-fire-trump-timeline.html?unlocked_article_code=1.4lA.duwu.kVKvwMQ_0LwR&smid=url-share)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1e0a-b8a7-40d5-93ff-7aa1252c3986"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "978d62df-0c3f-4089-bd75-733c0a40557c"} 
+{:block/content "![image.png](../assets/image_1786435262742_0.png){:width 400}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "978d62df-0c3f-4089-bd75-733c0a40557c"}
+:block/parent 
+{:block/uuid #uuid "978d62df-0c3f-4089-bd75-733c0a40557c"}
+:block/properties 
+{}
+:block/uuid #uuid "8bee84a3-64ce-4b66-b32d-91e9e3acd8c1"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1e0e-0ed2-41a2-af56-5e9c2040359c"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1e0a-b8a7-40d5-93ff-7aa1252c3986"} 
+{:block/content "![image.png](../assets/image_1786435262742_0.png){:width 400}"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1df0-bff2-41e9-9b09-13c1bac89f5a"}
+:block/parent 
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1e0e-0ed2-41a2-af56-5e9c2040359c"} 
+{:block/content "[The Whiplash War](https://www.nytimes.com/interactive/2026/07/29/world/middleeast/iran-war-cease-fire-trump-timeline.html?unlocked_article_code=1.4lA.duwu.kVKvwMQ_0LwR&smid=url-share)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a7b1df0-bff2-41e9-9b09-13c1bac89f5a"}
+:block/parent 
+{:block/uuid #uuid "6a7b1df0-bff2-41e9-9b09-13c1bac89f5a"}
+:block/properties 
+{}
+:block/uuid #uuid "6a7b1e48-91e4-4138-a863-907334070ea4"} 
+{:block/created-at 1786455943848
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "6a675fa3-051b-4ace-90e3-fb774962bb5a"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [480 393.484375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d8ae19b0-958a-11f1-9a0f-e1321bf04ba3"
+:noFill false
+:point [1168 -1192]
+:parentId "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"
+:collapsedHeight 0
+:nonce 1786455900009}}
+:block/updated-at 1786455943848})
+:pages (
+{:block/uuid #uuid "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6a7b1cce-eb72-4ffd-b9d4-329bd5fb620a"
+:name "visualization map"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("d8ae19b0-958a-11f1-9a0f-e1321bf04ba3")}}
+:block/updated-at 1786455943848
+:block/created-at 1786453198286
+:block/type "whiteboard"
+:block/name "visualization map"
+:block/original-name "visualization map"})}

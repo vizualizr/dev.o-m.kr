@@ -1,4 +1,8 @@
-## About
+- #+BEGIN_WARNING
+  The content is being migrated to [a new obsidian vault](obsidian://open?vault=vault-production&file=Start).
+  Do make any revision or addition to the obsidian vault.
+  #+END_WARNING
+- ## About
 	- <a href="https://wakatime.com"><img src="https://wakatime.com/share/@2c977ef5-79a6-45cc-94ed-1ba3005f66dd/256047fa-271f-43f9-b70f-705b6972140f.png" /></a>
 	- [dev.o-m.kr](http://dev.o-m.kr) is a journal documenting the process of [[developing]] an independent data storytelling blog from scratch.
 	- stack
@@ -12,6 +16,7 @@
 	  query-properties:: [:page :date-modified :date-created]
 - ## Updates
   id:: 691682d3-0523-4306-8742-d3f7f284aaea
+  collapsed:: true
 	- query-sort-by:: date-updated
 	  query-sort-desc:: true
 	  query-properties:: [:page :date-updated :date-created]
@@ -40,6 +45,7 @@
 	  }
 	  #+END_QUERY
 - ### Notes
+  collapsed:: true
 	- hosted on GitHub Pages with [logseq-SPA action]([[Applying custom domain to GitHub Pages repo]])
 - ### Log
 	- [[2025-12-22]] A page, [[thoughts]] has added to track the ideas.
@@ -56,3 +62,4 @@
 	- #2026-04-21 Advanced Query in ((691682d3-0523-4306-8742-d3f7f284aaea)) has been updated.
 	  collapsed:: true
 		- To filter the latest article based the user-defined page property, not the native property. now it filters `date-modified` and `date-updated`
+	- [[2026-09-16]] #obsidinaized this file.

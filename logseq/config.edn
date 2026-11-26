@@ -298,7 +298,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["js/배열과 메서드" "doing" "todo" "d3.js" "js/자바스크립 엔진 동작 개요"]
+ :favorites ["obsidinaized" "obsidinized" "D3.js in Action, Third Edition" "js/배열과 메서드" "doing" "todo" "d3.js" "js/자바스크립 엔진 동작 개요"]
 
  ;; Set flashcards interval.
  ;; Expected value:

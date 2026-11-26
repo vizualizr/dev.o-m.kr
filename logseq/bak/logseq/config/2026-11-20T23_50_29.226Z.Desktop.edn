@@ -1,6 +1,4 @@
 {:meta/version 1
-:custom-css-url "@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white-dots.css');"
-
  ;; Set the preferred format.
  ;; Available options:
  ;; - Markdown (default)
@@ -300,7 +298,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["doing" "todo" "d3.js" "js/자바스크립 엔진 동작 개요"]
+ :favorites ["obsidinized" "D3.js in Action, Third Edition" "js/배열과 메서드" "doing" "todo" "d3.js" "js/자바스크립 엔진 동작 개요"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -427,6 +425,6 @@
  :zotero/settings-v2 {"default" {:type-id "5382", :zotero-data-directory "d:\\yonggeun\\porter\\zotero\\", :include-attachments? false, :overwrite-mode? false, :page-insert-prefix "@"}}
  :default-home {:page "Start"}
  :publishing/all-pages-public? true
- :graph/settings {:excluded-pages? true
+ :graph/settings {:excluded-pages? false
  :orphan-pages? false
  :builtin-pages? false}}

@@ -1,0 +1,57 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"}
+:block/parent 
+{:block/uuid #uuid "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"}
+:block/uuid #uuid "6a759189-ee50-4324-9811-2f1752bde314"} 
+{:block/content "20"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6a759189-ee50-4324-9811-2f1752bde314"}
+:block/parent 
+{:block/uuid #uuid "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"}
+:block/uuid #uuid "6a797c57-6d12-4068-b341-4df22ae2d4c4"} 
+{:block/created-at 1786346596443
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:index 0
+:scale [1 1]
+:type "image"
+:assetId "592204d0-948c-11f1-84ce-bf34d16e3714"
+:size [67 20.5]
+:opacity 1
+:id "59251210-948c-11f1-84ce-bf34d16e3714"
+:isAspectRatioLocked true
+:isLocked false
+:objectFit "fill"
+:point [1856 1096]
+:parentId "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"
+:nonce 1786346593747
+:clipping 0}}
+:block/updated-at 1786346596443})
+:pages (
+{:block/uuid #uuid "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6a75916e-13b1-45e5-8c2c-8aa29ab0c43a"
+:name "design system/logo/map"
+:bindings 
+{}
+:nonce 1
+:assets [
+{:id "592204d0-948c-11f1-84ce-bf34d16e3714"
+:type "image"
+:src "../assets/image_1786346593689_0.png"
+:size [134 41]}]
+:shapes-index ("59251210-948c-11f1-84ce-bf34d16e3714")}}
+:block/namespace 
+{:db/id 4106}
+:block/updated-at 1786346596443
+:block/created-at 1786089838129
+:block/type "whiteboard"
+:block/name "design system/logo/map"
+:block/original-name "design system/logo/map"})}

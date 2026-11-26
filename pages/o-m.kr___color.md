@@ -1,14 +1,20 @@
 date-created:: [[2026-07-03]]
 date-updated:: [[2026-07-03]]
 alias::
-tags::
+tags:: #obsidianized 
 ai-sourced:: 
 division::
 stack::
 type::
 public:: true
 
+- #+BEGIN_WARNING
+  The content has moved to a new obsidian vault, and tagged as #obsidianized 
+  Check [the vault](obsidian://open?vault=content-obsidian&file=Start) for the latest changes.
+  Or visit [studio.o-m.kr](https://studio.o-m.kr)
+  #+END_WARNING
 - ## Summary
+  collapsed:: true
 	- 아래와 테마를 적용하면 tailwind CSS의 색상값도 변경된다. 대상은 아래와 같다.
 		- `primary` 기준
 			- 배경 및 텍스트 (Backgrounds & Typography)
@@ -30,7 +36,6 @@ public:: true
 				- 입력창 캐럿(커서) 색상: caret-primary
 	- [[DaisyUI]]에서 [최신 배색](https://daisyui.com/theme-generator/?lang=ko#theme=eJx9k-1urCAQhm-FuGnSk1SCfC32bhDGs6auGtD0K733Ip71YHX7k5lnZt6Xgc-s01fInrMOXv2gB3C51e4le8ry3GnbTD730IIZexcggqlwcE2zdQOtDSn6I171b7Fg5X3zAfd6xdytU5qoemdhpgsshrcYsjCMlxmLp65v_Cy_CCfTt73LvblAdLT6WOKV9pAXhIRM_9KayyMtMH9ABBPCUcH4n58sTVmB2cLKQ5YlLAsGFlYFVuAwc8ebvhuhG9capW5aFCol5nxT0sE0Ot0G-sQ1Lznf55KOJ7BgQCVM09X9OooXcRBjiAalxXljxk_GgPcHcCFZCr5q1zXd3xUUBMsZLXiJ1BkrsaHBubjzf2yJxczSkiJGMd_ezyx2fz98KSFSIhqWQXl5IPvXspIe6N9VhGVFG4ogJTHh552NuyVMIs7weetmcM1Vu_f_itj9NXsIre1Cn4QRIKskq4PFZb_UUMHUfshOGWO3VyVQOT9Eejju17ezjE0RW9nSzr_PQq2nNsRq3Xp4ygYHNTgf_93z6Cb4-gYyyEIU)을 확인하라.
 		- newspaper colorsafe 최종 확정이다.
-		  collapsed:: true
 			- ```css
 			  
 			  @plugin "daisyui/theme" {
@@ -69,11 +74,10 @@ public:: true
 			  }
 			  
 			  ```
-			- ![daisyui.com_theme-generator__lang=ko (2).png](../assets/daisyui.com_theme-generator_lang=ko_(2)_1783409942008_0.png){:height 1516, :width 810}
+			- ![daisyui.com_theme-generator__lang=ko (2).png](../assets/daisyui.com_theme-generator_lang=ko_(2)_1783409942008_0.png){:height 1477, :width 789}
 			- ![daisyui.com_theme-generator__lang=ko (3).png](../assets/daisyui.com_theme-generator_lang=ko_(3)_1783409934867_0.png)
 		- newspaper lofi
 		- newspaper
-		  collapsed:: true
 			- [링크](https://daisyui.com/theme-generator/?lang=ko#theme=eJyFU_1ugyAQfxXj0mRL1gugiOxtUM9pRsGAzb6ydx-jpmXVreEv7vd1d-hnbtQB86fc4Kuf1IQuf8xbq63b-3bACOnxeZhDeb8_AY3yuKeEBMi-6Ha4lzUIussIEJZRVoBgD9d0Ful3PcG2a67BIvGqS6hl9KLiL7PWmhnNfNZQCaJkUUTKDdHkxoNy7z8NCFJhzddY4nnXV-GUCcdjQLvFQdVKNsUWuu6LA-exrUJmlFIgMm1Lte2SyCoSzgr6tymDx9kpfQ4rCMg6hgmeUVJD9bBmJ46D1_cVg7AvCuHxZJDvUsVoent5lQro6VVKkTFWAi2vuevpBbDi1BGRGyJ_DEN6v51BuYCab9BvxKx1r8qZ0Tz_EUMY0C36rZiVDp2zbllreIqwVkJ2mSBQ7Fa0W6vi5xGc6sajD5-YxnaO_tThIYX6EXUX6gT4FdLYt5Tvxw9MjUJnlPFf6MXrAjTWdXji8-ktljqc5uGnEm_Gjh6XW4e9OuowV6-0x8d8ctij8-HneFlqX9_GjEPr)를 클릭하면 바로 아래 테마로 접근할 수 있다.
 			- ![daisyui.com_theme-generator__lang=ko (1).png](../assets/daisyui.com_theme-generator_lang=ko_(1)_1783090093332_0.png)
 			- ```css
@@ -116,8 +120,8 @@ public:: true
 			  ```
 		-
 - ## Steps
+  collapsed:: true
 	- [[2026-07-03]] 최초 배색은 다음과 같다.
-	  collapsed:: true
 		- ```css
 		  --text: #262314;
 		  --background: #efecda;
@@ -173,15 +177,18 @@ public:: true
 		  }
 		  
 		  ```
+		-
 - ## Troubleshooting
+  collapsed:: true
 	-
 - ## log
+  collapsed:: true
 	- [[2026-07-03]] Page created.
 	- [[2026-07-04]] newspaper WCAG safe confirmed
 - ### References
+  collapsed:: true
 	- 배색 시험 도구
 		- [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/)
-		  collapsed:: true
 			- 소스 공개가 안 되어 있어서 d3.js 차트에서 어떻게 보일지 실험할 수 없다.
 			- 내가 색상값을 입력해도 알고리듬 자체가 색상을 임의로 변경한다. 머티리얼 배색 원칙이 원색 위주의 보색을 추가해서 가시성을 높이는데 이렇다 보니 내가 원하는 파스텔 톤이 안 나온다.
 			- 시험한 배색을 내보내기한 두 파일을 참고하라.
