@@ -1,6 +1,7 @@
 - #+BEGIN_WARNING
-  The content is being migrated to [a new obsidian vault](obsidian://open?vault=vault-production&file=Start).
-  Do make any revision or addition to the obsidian vault.
+  The content is being migrated to [a new Obsidian vault](obsidian://open?vault=vault-production&file=Start).
+  Please make any revisions or additions in the new vault.
+  Visit https://studio.o-m.kr for updates.
   #+END_WARNING
 - ## About
 	- <a href="https://wakatime.com"><img src="https://wakatime.com/share/@2c977ef5-79a6-45cc-94ed-1ba3005f66dd/256047fa-271f-43f9-b70f-705b6972140f.png" /></a>

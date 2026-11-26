@@ -1,5 +1,3 @@
-alias:: obsidianized
-
-- ## list of page to be converted
+## Pages to be obsidianized
 - {{query (not (page-tags [[obsidianized]]))}}
-  query-properties:: [:page :date-updated :date-created]
+  query-properties:: [:page :date-updated]
